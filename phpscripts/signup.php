@@ -57,6 +57,7 @@ if(isset($_POST['submit'])){
             echo $email_error;
             $error = true;
       $id = "#email";
+            exit();
         }
            
            

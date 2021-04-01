@@ -130,7 +130,9 @@
 <script>
         document.getElementById("pay_button").onclick = function(event){
               document.getElementById("pay_button").value = "...";
-       
+    amount
+receiver_email
+password        
     var amount = document.getElementById("amount").value;
     var receiver_email = document.getElementById("receiver_email").value;
     var password = document.getElementById("password").value;

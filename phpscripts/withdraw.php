@@ -6,7 +6,6 @@
      return $data;
  }
 if(isset($_POST['submit'])){ 
-
   $account_details = $_POST['account_details'];
   $withdrawal_amount = $_POST['withdrawal_amount'];
   $password1 = $_POST['password'];
@@ -14,7 +13,7 @@ if(isset($_POST['submit'])){
    $error = false; 
 
        if (empty($account_details)) {
-        $account_details_error = "<p class='alert alert-danger' style='text-align:center'>Enter account details<p>";
+        $account_details_error = "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Enter account details<p>";
            echo $account_details_error;
     } else {
         $account_details = test_input($account_details);
@@ -22,7 +21,7 @@ if(isset($_POST['submit'])){
  
                                     
      if (empty($withdrawal_amount) || $withdrawal_amount <= 0) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Amount is too small<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Amount is too small<p>";
         
     } else {
         $withdrawal_amount = $withdrawal_amount;
@@ -30,24 +29,24 @@ if(isset($_POST['submit'])){
     
     
 if(hash('sha256', $password1) != $password){
-    echo "<p class='alert alert-danger' style='text-align:center'> Password is incorrect<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'> Password is incorrect<p>";
 }else{
     
 if($withdrawal_amount > $user_withdrawable){
-    echo "<p class='alert alert-danger' style='text-align:center'>You cannot withdraw more than your Withdrawal Amount<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>You cannot withdraw more than your Withdrawal Amount<p>";
 }else{
     
     
   $sql = "SELECT * FROM users WHERE id ='$id'";
 $result = mysqli_query($link, $sql);
 if(!$result){
-    echo '<div class="alert alert-danger" style="text-align:center">Error running the query!</div>';
+    echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error running the query!</div>';
     exit;
 }
         //If email & password don't match print error
 $count = mysqli_num_rows($result);
 if($count !== 1){
-    echo '<div class="alert alert-danger" style="text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
+    echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
 }
 else {
 
@@ -66,15 +65,22 @@ else {
                      $sql= "INSERT INTO `$username`(`transaction`, `amount`, `date`, `status`) VALUES ('Withdrawal','$withdrawal_amount','$time_of_action', 'pending')";    
         if(mysqli_query($link1, $sql)){
                
-            $resultMessage = "<div class='alert alert-success' style='text-align:center'>Successfully initiated withdrawal</div>";
+            $resultMessage = "<div class='alert alert-success' style='background-color:green;padding:5px;margin-top:5px;text-align:center'>Successfully initiated withdrawal</div>";
             echo $resultMessage;
+            echo "<script>
+            function navigate(){
+            window.location = '../withdraw';
+            }
+
+            setTimeout(navigate, 2000);
+            </script>";
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured, please try agsin in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occured, please try agsin in a while, or send feedback</div>';
         }
             
          
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
         }     
         
         
@@ -86,7 +92,7 @@ else {
         
         
         }else{     
- $resultMessage = "<div class='alert alert-danger' style='text-align:center'>Error ocurred, try again later.</div>";
+ $resultMessage = "<div class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Error ocurred, try again later.</div>";
             echo $resultMessage;
     }  
     
@@ -151,17 +157,17 @@ if($account_type == "Savings"){
 }       
         
       if (empty($account_type)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Select Account to withdraw from!<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Select Account to withdraw from!<p>";
         
     } else {
       if (empty($withdrawal_amount) || $withdrawal_amount <= 0) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Amount is too small<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Amount is too small<p>";
         
     } else {
         $withdrawal_amount = test_input($withdrawal_amount);
           
                 if (empty($btc_address)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Please enter bitcoin wallet address<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Please enter bitcoin wallet address<p>";
         
     } else {
         $btc_address = test_input($btc_address);
@@ -170,11 +176,11 @@ if($account_type == "Savings"){
                     
              
 if(hash('sha256', $password1) != $password){
-    echo "<p class='alert alert-danger' style='text-align:center'> Password is incorrect<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'> Password is incorrect<p>";
 }else{
     
 if($withdrawal_amount > $balance_check){
-    echo "<p class='alert alert-danger' style='text-align:center'>You cannot withdraw more than available amount<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>You cannot withdraw more than available amount<p>";
 }else{
     
 
@@ -189,15 +195,22 @@ if($withdrawal_amount > $balance_check){
                      $sql= "INSERT INTO `$email`(`transaction`,`currency`, `amount`, `date`, `status`) VALUES ('$t_data','$','$withdrawal_amount','$time_of_action', 'pending')";    
         if(mysqli_query($link1, $sql)){
                
-            $resultMessage = "<div class='alert alert-success' style='text-align:center'>Successfully initiated withdrawal</div>";
+            $resultMessage = "<div class='alert alert-success' style='background-color:green;padding:5px;margin-top:5px;text-align:center'>Successfully initiated withdrawal</div>";
             echo $resultMessage;
+            echo "<script>
+            function navigate(){
+            window.location = '../withdraw';
+            }
+
+            setTimeout(navigate, 2000);
+            </script>";
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured, please try again in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occured, please try again in a while, or send feedback</div>';
         }
             
          
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occured while initiating withdrawal, please try agsin in a while, or send feedback</div>';
         }     
         
 
@@ -250,33 +263,33 @@ if($account_type == "Savings"){
     $balance_check = $savings_balance;
 }
 
-        
+      
        if (empty($account_type)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Select Account to withdraw from!<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Select Account to withdraw from!<p>";
         
     } else {
       if (empty($withdrawal_amount) || $withdrawal_amount <= 0) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Amount is too small<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Amount is too small<p>";
         
     } else {
       
             if (empty($full_name)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Enter Full Name<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Enter Full Name<p>";
         
     } else {
       
                   if (empty($account_number)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Enter Account Number<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Enter Account Number<p>";
         
     } else {
       
                               if (empty($address)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Enter Address<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Enter Address<p>";
         
     } else {
       
                         if (empty($bank_name)) {
-        echo "<p class='alert alert-danger' style='text-align:center'>Enter Bank Name<p>";
+        echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >Enter Bank Name<p>";
         
     } else {
       
@@ -284,11 +297,11 @@ if($account_type == "Savings"){
                             
                             
   if(hash('sha256', $password1) != $password){
-    echo "<p class='alert alert-danger' style='text-align:center'> Password is incorrect<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  > Password is incorrect<p>";
 }else{
     
 if($withdrawal_amount > $balance_check){
-    echo "<p class='alert alert-danger' style='text-align:center'>You cannot withdraw more than available amount<p>";
+    echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'  >You cannot withdraw more than available amount<p>";
 }else{
     
 
@@ -303,15 +316,22 @@ if($withdrawal_amount > $balance_check){
                      $sql= "INSERT INTO `$email`(`transaction`,`currency`, `amount`, `date`, `status`) VALUES ('$t_data','$','$withdrawal_amount','$time_of_action', 'pending')";    
         if(mysqli_query($link1, $sql)){
                
-            $resultMessage = "<div class='alert alert-success' style='text-align:center'>Successfully initiated withdrawal</div>";
+            $resultMessage = "<div class='alert alert-success' style='background-color:green;padding:5px;margin-top:5px;text-align:center'  >Successfully initiated withdrawal</div>";
             echo $resultMessage;
+            echo "<script>
+            function navigate(){
+            window.location = '../withdraw';
+            }
+
+            setTimeout(navigate, 2000);
+            </script>";
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured, please try again in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center"  >Error occured, please try again in a while, or send feedback</div>';
         }
             
          
         }else{
-            echo '<div class="alert alert-danger" style="text-align:center">Error occured while initiating withdrawal, please try again in a while, or send feedback</div>';
+            echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center"  >Error occured while initiating withdrawal, please try again in a while, or send feedback</div>';
         }     
         
 

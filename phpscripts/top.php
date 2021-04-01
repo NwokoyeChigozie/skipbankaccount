@@ -1,6 +1,6 @@
 <?php include("../phpscripts/headscript.php");?>
 <?php $page = "dashboard"; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head id="Head1">
@@ -348,12 +348,13 @@
     <meta name="msapplication-TileColor" content="#FF4800" />
     <meta name="msapplication-TileImage" content="https://pubs.payoneer.com/Content/Default/img/Favicon/mstile-144x144.png" />
     <meta name="msapplication-config" content="none" />
-    <link type="text/css" rel="stylesheet" href="Stylesheets/a_10_80348692.css" />
-    <link type="text/css" rel="stylesheet" href="Stylesheets/a_10_633498983.css" />
-    <link type="text/css" rel="stylesheet" href="Stylesheets/transactions-style-f8cb1ce9352c1871534e.css" />
+    <link type="text/css" rel="stylesheet" href="../withdraw/Stylesheets/a_10_80348692.css" />
+    <link type="text/css" rel="stylesheet" href="../withdraw/Stylesheets/a_10_633498983.css" />
+    <link type="text/css" rel="stylesheet" href="../dashboard/Stylesheets/transactions-style-f8cb1ce9352c1871534e.css" />
+    <link type="text/css" rel="stylesheet" href='../dashboard/Stylesheets/main-style-1cd7169ce6f8fcbce5fd.css' />
     <script type="text/javascript" src="https://pubs.payoneer.com/Content/Common/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="Scripts/a_10_-200637219.js"></script>
-    <script type="text/javascript" src="Scripts/a_10_488517883.js"></script>
+    <script type="text/javascript" src="../dashboard/Scripts/a_10_-200637219.js"></script>
+    <script type="text/javascript" src="../dashboard/Scripts/a_10_488517883.js"></script>
 </head>
 
 <body id="body" onload="mp_onload()" data-theme="avocado">
@@ -542,7 +543,7 @@ function serializer($input){
                     <span class="CustomerIdLabelMobile" style="display:inline-block;width:30%;">Customer ID</span> <strong style="width:auto"><?php echo $p_id;?></strong>
                 </div>
                 <div class="menustyleRight no-mobile">
-                    <a id="btnSignout" href="../phpscripts/logout.php"><span id="Label28">Sign Out</span></a>
+                    <a id="btnSignout" href="../php../dashboard/Scripts/logout.php"><span id="Label28">Sign Out</span></a>
                 </div>
                 <ul id="mainmenu" class="sf-menu">
 
@@ -580,7 +581,7 @@ function serializer($input){
                     </li>
                 </ul>
                 <div class="menustyleRight mobile-only">
-                    <a id="btnSignoutMobile" href="../phpscripts/logout.php"><span id="Label3">Sign Out</span></a>
+                    <a id="btnSignoutMobile" href="../php../dashboard/Scripts/logout.php"><span id="Label3">Sign Out</span></a>
                 </div>
             </div>
             <label id="creditMobileOnly" class="credit-ddl mobile-only">

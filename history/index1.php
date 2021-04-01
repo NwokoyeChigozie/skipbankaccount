@@ -1,5 +1,5 @@
 <?php include("../phpscripts/top.php");?>
-<?php $page = "dashboard"; ?>
+<?php $page = "history"; ?>
                 <div id="LeftContent" class="maDashboard">
                     <div id="widgetContainer" class="widgetContainer" bis_skin_checked="1">
                         <div class="myaccount" bis_skin_checked="1">
@@ -12,96 +12,7 @@
                                                 <div class="widget-template jumbotron-widget" bis_skin_checked="1">
                                                     <div class="sc-fzoYkl hfPoTr" bis_skin_checked="1"></div>
                                                 </div>
-                                                <div class="widget-template balances-widget" bis_skin_checked="1">
-                                                    <div class="balances-widget-outlet" bis_skin_checked="1">
-                                                        <div class="balances-widget-main" bis_skin_checked="1">
-                                                            <div class="balances-widget-header" bis_skin_checked="1"><span class="text">Balances</span></div>
-                                                            <div class="balances-cards-list-wrapper" bis_skin_checked="1">
-                                                                <div class="balances-cards-list" bis_skin_checked="1">
-                                                                    <div data-testid="widget-balances-balance-card-0" class="balance-card" bis_skin_checked="1">
-                                                                        <div class="active-border" bis_skin_checked="1">
-                                                                            <div bis_skin_checked="1"></div>
-                                                                        </div>
-                                                                        <div class="balance-card__content" bis_skin_checked="1">
-                                                                            <header class="balance-card__header" data-testid="widget-balance_blocked-header-0">
-                                                                                <!--
-                                                                                <div class="inline-dropdown" bis_skin_checked="1">
-                                                                                    <div class="inline-dropdown__trigger" bis_skin_checked="1"><span class="inline-dropdown__trigger__value-wrapper"></span><span class="inline-dropdown__trigger__label"><i class="icon-more-actions"></i></span></div>
-                                                                                </div>
--->
-                                                                            </header>
-                                                                            <main class="balance-card__main">
-                                                                                <div class="" bis_skin_checked="1">
-                                                                                    <p>Savings Balance</p><br>
-                                                                                    <div class="balance" data-testid="widget-balance_card-balance-0" bis_skin_checked="1"><?php echo serializer($savings_balance); ?> USD</div>
-                                                                                    <div class="card-details" bis_skin_checked="1"><span class="masked-card"></span></div>
-                                                                                </div>
-                                                                                <!--                                                                                <i class="icon-right-open-big  "></i>-->
-                                                                            </main>
-                                                                            <div class="snackFooter" bis_skin_checked="1">
-                                                                                <div bis_skin_checked="1">
-                                                                                    <footer data-testid="widget-balance_balance-card-footer-0" class="balance-card__footer"><a class="myaccount-link" href="../withdraw/"><span>Withdraw <i class="fa fa-angle-right"></i></span></a></footer>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="sep" bis_skin_checked="1"></div>
-                                                                    <div data-testid="widget-balances-balance-card-1" class="balance-card" bis_skin_checked="1">
-                                                                        <div class="active-border" bis_skin_checked="1">
-                                                                            <div bis_skin_checked="1"></div>
-                                                                        </div>
-                                                                        <div class="balance-card__content" bis_skin_checked="1">
-                                                                            <header class="balance-card__header" data-testid="widget-balance_blocked-header-1">
-                                                                            </header>
-                                                                            <main class="balance-card__main">
-                                                                                <div class="" bis_skin_checked="1">
-                                                                                    <p>Investment Balance</p><br>
-                                                                                    <div class="balance" data-testid="widget-balance_card-balance-1" bis_skin_checked="1"><?php echo serializer($investment_balance); ?> USD</div>
-                                                                                    <div class="card-details" bis_skin_checked="1"><span class="masked-card"></span></div>
-                                                                                </div>
-                                                                                <!--                                                                                <i class="icon-right-open-big  "></i>-->
-                                                                            </main>
-                                                                            <div class="snackFooter" bis_skin_checked="1">
-                                                                                <div bis_skin_checked="1">
-                                                                                    <footer data-testid="widget-balance_balance-card-footer-1" class="balance-card__footer"><a class="myaccount-link" href="../withdraw/"><span>Withdraw <i class="fa fa-angle-right"></i></span></a></footer>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="sep" bis_skin_checked="1"></div>
-                                                                    <div data-testid="widget-balances-balance-card-2" class="balance-card" bis_skin_checked="1">
-                                                                        <div class="active-border" bis_skin_checked="1">
-                                                                            <div bis_skin_checked="1"></div>
-                                                                        </div>
-                                                                        <div class="balance-card__content" bis_skin_checked="1">
-                                                                            <header class="balance-card__header" data-testid="widget-balance_blocked-header-2">
-                                                                            </header>
-                                                                            <main class="balance-card__main">
-                                                                                <div class="" bis_skin_checked="1">
-                                                                                    <p>Investment Withdrawable Amount</p><br>
-                                                                                    <div class="balance" data-testid="widget-balance_card-balance-2" bis_skin_checked="1"><?php echo serializer($user_withdrawable); ?> USD</div>
-                                                                                    <div class="card-details" bis_skin_checked="1"><span class="masked-card"></span></div>
-                                                                                </div>
-                                                                                <!--                                                                                <i class="icon-right-open-big  "></i>-->
-                                                                            </main>
-                                                                            <div class="snackFooter" bis_skin_checked="1">
-                                                                                <div bis_skin_checked="1">
-                                                                                    <footer data-testid="widget-balance_balance-card-footer-2" class="balance-card__footer"><a class="myaccount-link" href="../withdraw/"><span>Withdraw <i class="fa fa-angle-right"></i></span></a></footer>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sc-fzoXWK hnKkAN" bis_skin_checked="1">
-                                                                <div class="snackBackground closeSnack" bis_skin_checked="1">
-                                                                    <div class="overlay" bis_skin_checked="1"></div>
-                                                                    <div class="snack" bis_skin_checked="1"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                
                                                 <div id="LeftContent" class="" bis_skin_checked="1">
                                                     <div id="widgetContainer" class="widgetContainer" bis_skin_checked="1">
                                                         <div class="myaccount" bis_skin_checked="1">
@@ -114,7 +25,7 @@
                                                                                     <div class="transactions__body" bis_skin_checked="1">
                                                                                         <div class="myaccount-page-title myaccount-page-title--legacy" bis_skin_checked="1">
                                                                                             <div class="myaccount-page-title__wrapper" bis_skin_checked="1">
-                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">Transactions</span></div>
+                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">History</span></div>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="transaction-search-new transaction-search-new--legacy" bis_skin_checked="1"></div>
@@ -123,7 +34,7 @@
                                                                                             <div class="card transactions__body__tables__table-transactions transactions__body__tables__table-transactions--legacy card--open card--active card--no-padding card--shadow" bis_skin_checked="1">
                                                                                                 <div class="card__header card__header--collapsable" bis_skin_checked="1"><i class="card__header__expander icon-right-open-big"></i>
                                                                                                     <div class="card__header__title" bis_skin_checked="1">
-                                                                                                        <h2>Recent transactions</h2>
+                                                                                                        <h2>All Transactions</h2>
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <div class="card__content" bis_skin_checked="1">
@@ -250,16 +161,7 @@ $sql1 = "SELECT * FROM `$username` ORDER BY id DESC" ;
         }
     }
           }
-    $new_prods = [];
-    if(!empty($prods) && $prods[0] != ''){
-        foreach($prods as $prod){
-            $t_time = $prod['date'];
-            $t_stamp = strtotime($t_time);
-            if((time()-$t_stamp) <= 172800){
-               $new_prods[] = $prod; 
-            }
-        }
-    }
+    $new_prods = $prods;
                                         
     if(!empty($new_prods) && $new_prods[0] != ''){
         foreach($new_prods as $prod){
@@ -303,7 +205,7 @@ $sql1 = "SELECT * FROM `$username` ORDER BY id DESC" ;
                                                                             </div>
                                                                         </div>
                                                                     </td>
-                                                                    <td class="table__table-td column-amount">
+                                                                    <td class="table__table-td column-amount" colspan="2">
                                                                         <div bis_skin_checked="1"><span style="font-size:13px"><?php echo $t_comment; ?></span></div>
                                                                     </td>
 <!--
