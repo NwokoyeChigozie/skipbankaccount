@@ -30,16 +30,18 @@ if(!$result){
     
 $count = mysqli_num_rows($result);
 if($count >= 1){
-    echo '<div class="form-group"><p class="alert alert-success" style="text-align:center">Request is currently being processed... Check back later for payment information</p></div>';
+    echo '<div class="form-group"><p class="alert alert-success" style="text-align:center;padding:5px;margin-top:5px;background-color:#0068b6">Request is currently being processed... Check back later for payment information</p>
+                                    </div>';
 }
 else {
     
                 $sql= "INSERT INTO `wire_requests`(`email`, `account_type`,`duration`) VALUES ('$email','$account_type','$duration')";    
         if(mysqli_query($link, $sql)){
         
-            $resultMessage = '<div class="form-group"><p class="alert alert-success" style="text-align:center">Request is currently being processed... Check back later for payment information</p></div>';
+            $resultMessage = '<div class="form-group"><p class="alert alert-success" style="text-align:center;padding:5px;margin-top:5px;background-color:#0068b6">Request is currently being processed... Check back later for payment information</p>
+                                    </div>';
             echo $resultMessage;
-        }else{ echo "<p class='alert alert-danger'>Error occurred while sending request<p>";}      
+        }else{ echo "<p class='alert alert-danger' style='text-align:center;padding:5px;margin-top:5px;background-color:red'>Error occurred while sending request<p>";}      
     
     
 } 

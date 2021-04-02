@@ -9,22 +9,22 @@ if(isset($_POST['claim_benefits'])){
            $sql = "SELECT * FROM benefits WHERE email='$email'";
 $result = mysqli_query($link, $sql);
 if(!$result){
-    echo '<div class="alert alert-danger">Error occurred!</div>';
+    echo '<div class="alert alert-danger" style="background-color:red;padding:5px;margin-top:5px;text-align:center">Error occurred!</div>';
     exit;
 }
     
 $count = mysqli_num_rows($result);
 if($count >= 1){
-    echo "<p class='alert alert-danger' style='text-align:center'>You've already made a request<p>";
+    echo "<p class='alert alert-danger'  style='background-color:red;padding:5px;margin-top:5px;text-align:center'>You've already made a request<p>";
 }
 else {
     
                 $sql= "INSERT INTO `benefits`(`email`, `amount`,`status`) VALUES ('$email','$amount','pending')";    
         if(mysqli_query($link, $sql)){
         
-            $resultMessage = "<p class='alert alert-success'>You've successfully claimed your Benefits, your savings balance will be updated soon.</p>";
+            $resultMessage = "<p class='alert alert-success' style='background-color:green;padding:5px;margin-top:5px;text-align:center'>You've successfully claimed your Benefits, your savings balance will be updated soon.</p>";
             echo $resultMessage;
-        }else{ echo "<p class='alert alert-danger'>Error occurred while sending request<p>";
+        }else{ echo "<p class='alert alert-danger' style='background-color:red;padding:5px;margin-top:5px;text-align:center'>Error occurred while sending request<p>";
              }      
     
     
