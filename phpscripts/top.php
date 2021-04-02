@@ -543,7 +543,7 @@ function serializer($input){
                     <span class="CustomerIdLabelMobile" style="display:inline-block;width:30%;">Customer ID</span> <strong style="width:auto"><?php echo $p_id;?></strong>
                 </div>
                 <div class="menustyleRight no-mobile">
-                    <a id="btnSignout" href="../php../dashboard/Scripts/logout.php"><span id="Label28">Sign Out</span></a>
+                    <a id="btnSignout" href="../phpscripts/logout.php"><span id="Label28">Sign Out</span></a>
                 </div>
                 <ul id="mainmenu" class="sf-menu">
 
@@ -557,11 +557,7 @@ function serializer($input){
 
                         </ul>
                     </li>
-                    <li> <a href="#" onclick="return false;"><span>Receive</span></a>
-                        <ul>
-                            <li><a href='../fund/' target='_self'><span>Savings</span></a></li>
-                            <li><a href='../fund/' target='_self'><span>Investment</span></a></li>
-                        </ul>
+                    <li> <a href="../fund/"><span>Receive</span></a>
                     </li>
                     <li> <a href="../pay/"><span> Pay</span></a>
                     </li>
@@ -581,7 +577,7 @@ function serializer($input){
                     </li>
                 </ul>
                 <div class="menustyleRight mobile-only">
-                    <a id="btnSignoutMobile" href="../php../dashboard/Scripts/logout.php"><span id="Label3">Sign Out</span></a>
+                    <a id="btnSignoutMobile" href="../phpscripts/logout.php"><span id="Label3">Sign Out</span></a>
                 </div>
             </div>
             <label id="creditMobileOnly" class="credit-ddl mobile-only">

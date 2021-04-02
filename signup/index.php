@@ -1,89 +1,476 @@
-<?php 
-    ob_start();
-session_start();
-if(isset($_SESSION['id'])){
-
-    header("Location: ../dashboard/");
-}?>
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>SKIP BANK</title>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Slide Login Form template Responsive, Login form web template, Flat Pricing tables, Flat Drop downs Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        SKIP BANK - Sign Up
 
-	 <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
+    </title>
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-
-	<!-- Custom Theme files -->
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="alert.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-	<!-- //Custom Theme files -->
-
-	<!-- web font -->
-	<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
-	<!-- //web font -->
-
-
-</head>
-<body>
-
-<!-- main -->
-<div class="w3layouts-main"> 
-	<div class="bg-layer">
-		<h1>Sign up</h1>
-		<div class="header-main">
 <!--
-			<div class="main-icon">
-				<span class="fa fa-eercast"></span>
-			</div>
+    <script type="text/javascript">
+        document.domain = 'payoneer.com';
+        var ahid = 0;
+        var isAccountReflected = 'True';
+
+    </script>
 -->
-			<div class="header-left-bottom">
-				<form method="post">
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-						<input type="text" placeholder="Full Name" id="name">
-                        <p style="color:#fff;width:inherit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Middle name</p>
-					</div>
-                    <br>
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-						<input type="email" placeholder="Email Address" id="email">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-phone"></span>
-						<input type="text" placeholder="Phone no" id="phone">
-					</div>
-                   
-                    <div class="icon1">
-<!--						<span class="fa fa-phone"></span>-->
-						<input type="date" placeholder="Date of Birth" id="DOB">
-                        <p style="color:#fff;width:inherit">&nbsp;&nbsp;Date of Birth</p>
-					</div>
-                    <br>
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-                        <select id="gender" name="gender"  class="form-control" dropdown="100" >
-                           <option value="" selected="">Gender</option>
-                           <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                            <option value="Prefer not to say">Prefer not to say</option>
-                        </select>
-					</div>
-					<div class="icon1">
-						<span class="fa fa-flag"></span>
-						<select id="country" name="country"  class="form-control" dropdown="100" >
-                           <option value="" selected="">Country</option>
+
+
+
+
+
+
+
+
+
+
+<!--
+    <script>
+        var registrationType = 'Regular';
+
+    </script>
+-->
+
+
+    <script id="clientCapsRef"></script>
+    
+    
+    <meta name="application-name" content="Skip Bank" />
+    <meta name="msapplication-TileColor" content="#FF4800" />
+    <meta name="msapplication-config" content="none" />
+<!--    <script type="text/javascript" src="js/ruxitagentjs_ICA2SVfgjqrtux_10209210209190405.js" data-dtconfig="rid=RID_2075887754|rpid=-1284416722|domain=payoneer.com|reportUrl=/rb_bf52219lxm|app=c529d7530a624a94|rcdec=1209600000|featureHash=ICA2SVfgjqrtux|vcv=2|rdnt=1|uxrgce=1|srcss=1|bp=2|srmcrv=10|cuc=ksm4c5ds|mel=100000|dpvc=1|lastModification=1614758124978|dtVersion=10209210209190405|srmcrl=1|tp=500,50,0,1|uxdcw=1500|vs=2|agentUri=/dtagent/ruxitagentjs_ICA2SVfgjqrtux_10209210209190405.js"></script>-->
+    <link type="text/css" rel="stylesheet" href="css/a_23_-2013473049.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/a_23_89030541.js"></script>
+<!--       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+</head>
+    
+    
+
+<body id="ctl00_body" Class="pt1" data-theme="banana">
+
+    
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=zlq7i1aoZM000j" style="display:none" height="1" width="1" alt="" /></noscript><!-- End Alexa Certify Javascript -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-R2XW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        var dataLayer = [{
+            PID: 'Payoneer Prepaid Account (100014285)',
+            LangId: '1',
+            account_reflected: 'Yes',
+            system_name: 'Payouts',
+            flow_type: '0.5',
+            processor_type: '1',
+            RegMode: 'Regular',
+            step: 'Personal-Details',
+            page: '/Default/AccountRegistration.aspx'
+        }];
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-R2XW');
+
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <div class='global'>
+        <div class="fw">
+            <form method="post" id="aspnet_Form" autocomplete="off">
+                <div class="aspNetHidden">
+                    <input type="hidden" name="rsa_deviceprint" id="rsa_deviceprint" value="" />
+                    <input type="hidden" name="rsa_devicefso" id="rsa_devicefso" value="" />
+                    <input type="hidden" name="userPrefs" id="userPrefs" value="" />
+                    <input type="hidden" name="qaz" id="qaz" value="1231397887" />
+                    
+                </div>
+
+
+<!--
+                <script type="text/javascript">
+                    //<![CDATA[
+                    window.clientip = '197.210.84.37';
+                    window.rsa_fso = 'https://pubs.payoneer.com/Content/Common/swf/rsa_fso';
+                    var IsCheckEmail = true;
+                    $(function() {
+                        $('#slider').data('AnythingSlider').gotoPage('.slide-1');
+                    });
+
+                    function collectCPCOnSubmit() {
+                        fortyone.collect('userPrefs');
+                        return true;
+                    }
+
+                    function WebForm_OnSubmit() {
+                        collectCPCOnSubmit();
+                        return true;
+                    }
+                    //]]>
+
+                </script>
+-->
+
+                <header>
+                    <div class="header">
+                        <div class="sw">
+                            <div class="inner">
+                                <a class="partner-logo" title="Payoneer - Expand your global reach" href="../" target="_blank" id="PartnerLogo"><img style="margin-top:20px" src="../Images/ARK344.png" /></a>
+                                <div class="tools">
+
+                                    <div Payoneer="Localization" class="language-bar" id="Localization">
+                                        <div class="form-object">
+                                            <div class="field field-select">
+                                                <select name="ctl00$Localization" id="Localization" class="field-data selectCustom hasValue" onchange="__doPostBack(&#39;ctl00$Localization&#39;,$(this).val())">
+                                                    <option title="English" value="1" selected="selected">
+                                                        English
+                                                    </option>
+                                                    <option title="Russian" value="3">
+                                                        Русский
+                                                    </option>
+                                                    <option title="Chinese" value="4">
+                                                        简体中文
+                                                    </option>
+                                                    <option title="Turkish" value="5">
+                                                        Türkçe
+                                                    </option>
+                                                    <option title="Portuguese" value="6">
+                                                        Português
+                                                    </option>
+                                                    <option title="Spanish" value="7">
+                                                        Español
+                                                    </option>
+                                                    <option title="Hungarian" value="8">
+                                                        Magyar
+                                                    </option>
+                                                    <option title="French" value="9">
+                                                        Français
+                                                    </option>
+                                                    <option title="Greek" value="11">
+                                                        ελληνικά
+                                                    </option>
+                                                    <option title="Malay" value="12">
+                                                        Melayu
+                                                    </option>
+                                                    <option title="German" value="13">
+                                                        Deutsch
+                                                    </option>
+                                                    <option title="Japanese" value="14">
+                                                        日本語
+                                                    </option>
+                                                    <option title="Korean" value="15">
+                                                        한국어
+                                                    </option>
+                                                    <option title="Polish" value="16">
+                                                        Polski
+                                                    </option>
+                                                    <option title="Chinese_st" value="17">
+                                                        繁體中文
+                                                    </option>
+                                                    <option title="Danish" value="18">
+                                                        Dansk
+                                                    </option>
+                                                    <option title="Arabic" value="19">
+                                                        العربية
+                                                    </option>
+                                                    <option title="Italian" value="20">
+                                                        Italiano
+                                                    </option>
+                                                    <option title="Vietnamese" value="21">
+                                                        Tiếng Việt
+                                                    </option>
+                                                    <option title="Ukrainian" value="22">
+                                                        Українська
+                                                    </option>
+                                                    <option title="Thai" value="24">
+                                                        ภาษาไทย
+                                                    </option>
+                                                    <option title="Indonesian" value="25">
+                                                        Bahasa Indonesia
+                                                    </option>
+                                                </select><span class='selectCustomBox'><span class='selectCustomBoxInner'>English</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="languages-title">
+                                        Select your language:
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix">&nbsp;</div>
+                        </div>
+                    </div>
+                </header>
+
+
+
+
+                <nav>
+                    <div class="navigation">
+                        <div class="icon"></div>
+                        <div class="sw">
+                            <div class="menu">
+                                <ul class="menu-container">
+                                    <li class="item menu-name">
+                                        <div class="level-one">Main Menu</div>
+                                    </li>
+                                    <li class="item language-selector">
+                                        <div Payoneer="Localization" class="level-one" id="Localization1">
+                                            <div class="form-object">
+                                                <div class="field field-select">
+                                                    <select name="ctl00$cphPageNavigation$ctl00$Localization1" id="Localization1" class="field-data selectCustom hasValue" onchange="__doPostBack(&#39;ctl00$cphPageNavigation$ctl00$Localization1&#39;,$(this).val())">
+                                                        <option title="English" value="1" selected="selected">
+                                                            English
+                                                        </option>
+                                                        <option title="Russian" value="3">
+                                                            Русский
+                                                        </option>
+                                                        <option title="Chinese" value="4">
+                                                            简体中文
+                                                        </option>
+                                                        <option title="Turkish" value="5">
+                                                            Türkçe
+                                                        </option>
+                                                        <option title="Portuguese" value="6">
+                                                            Português
+                                                        </option>
+                                                        <option title="Spanish" value="7">
+                                                            Español
+                                                        </option>
+                                                        <option title="Hungarian" value="8">
+                                                            Magyar
+                                                        </option>
+                                                        <option title="French" value="9">
+                                                            Français
+                                                        </option>
+                                                        <option title="Greek" value="11">
+                                                            ελληνικά
+                                                        </option>
+                                                        <option title="Malay" value="12">
+                                                            Melayu
+                                                        </option>
+                                                        <option title="German" value="13">
+                                                            Deutsch
+                                                        </option>
+                                                        <option title="Japanese" value="14">
+                                                            日本語
+                                                        </option>
+                                                        <option title="Korean" value="15">
+                                                            한국어
+                                                        </option>
+                                                        <option title="Polish" value="16">
+                                                            Polski
+                                                        </option>
+                                                        <option title="Chinese_st" value="17">
+                                                            繁體中文
+                                                        </option>
+                                                        <option title="Danish" value="18">
+                                                            Dansk
+                                                        </option>
+                                                        <option title="Arabic" value="19">
+                                                            العربية
+                                                        </option>
+                                                        <option title="Italian" value="20">
+                                                            Italiano
+                                                        </option>
+                                                        <option title="Vietnamese" value="21">
+                                                            Tiếng Việt
+                                                        </option>
+                                                        <option title="Ukrainian" value="22">
+                                                            Українська
+                                                        </option>
+                                                        <option title="Thai" value="24">
+                                                            ภาษาไทย
+                                                        </option>
+                                                        <option title="Indonesian" value="25">
+                                                            Bahasa Indonesia
+                                                        </option>
+                                                    </select><span class='selectCustomBox'><span class='selectCustomBoxInner'>English</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="languages-title">
+                                            Select your language:
+                                        </div>
+                                    </li>
+
+                                    <li id="faqTab" class="item faq">
+                                        <div class="level-one"><a href="../our_services/" target="_blank">
+                                                Our Services
+                                            </a></div>
+                                    </li>
+
+                                    <li id="contactTab" class="item contact">
+                                        <div class="level-one"><a href="../about/" target="_blank">
+                                                About
+                                            </a></div>
+                                    </li>
+
+                                    <li id="myAccountTab" class="item account">
+                                        <div class="level-one"><a href="../login/" target="_blank">
+                                                Login
+                                            </a></div>
+                                    </li>
+
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
+
+
+
+
+
+
+                <section id="page-title">
+                    <div class="page-title">
+                        <div class="sw">
+                            <div class="page-title-inner">
+
+                                <div class="title">
+                                    Skip Bank Sign Up
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section id="reg-form">
+                    <div class="reg-form-inner">
+
+                        <div class="splash sw">
+
+                            <ul id="slider">
+
+
+
+                                <li class='slider-item slide-1 noBackward' data-gtmstepname="Personal-Details">
+                                    <div>
+
+                                        <div class="slide-content">
+
+
+
+                                            <div>
+                                                <div class="slide-data-holder" id='PersonalDetails'>
+                                                    <div class="slide-form">
+                                                        <div class="slide-form-inner ">
+
+                                                            <div id="PersonalDetailsGeneralError" class="server-error single-error"></div>
+
+
+                                                            <div id="RegistrationInstructions">
+                                                                <span id="Label2">Please fill in the fields in English characters only</span>
+                                                            </div>
+
+                                                            
+
+
+                                                            <div class="form-object Company">
+<!--                                                                <span class="error-star"></span>-->
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input id="first_name" payoneer="TextBox" type="text" data-charsToReplace="　&amp;-.&#39;,/+()&quot;@:*`?̈ $̀#°;!\–̈́’￼_²，´%ºａ&lt;９о=５‘[​。‐℅＆－½§¤ð|]>Â ï»¿âÃ¢ÂÂ?ââ‎‎¦" name="ctl00$cphBodyContent$PersonalDetails1$txtFirstName" class="field-data watermark" placeholder="First name" id="txtFirstName" class="Individual" /><button type="button" class="field-feedback" data-tooltip-toggle data-target="#txtFirstName_tt" aria-label="mobile tooltip toggle" tabindex="-1"><i class="icon-question" aria-hidden="true"></i></button>
+                                                                </div>
+                                                                <div id="txtFirstName_e" class="error-message"></div>
+                                                                <div class="clearfix"></div><span id="txtFirstName_tt" payoneer="ToolTip" class="info" data-cssclass="payoneer" title="First name used in your government-issued ID, written in English characters" data-triggercontrol="txtFirstName"><span class="info-text">First name used in your government-issued ID, written in English characters</span></span>
+                                                            </div>
+
+
+                                                            <div class="form-object Company">
+                                                                <span class="error-star"></span>
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input id="last_name" payoneer="TextBox" type="text"  data-charsToReplace="　&amp;-.&#39;,/+()&quot;@:*`?̈ $̀#°;!\–̈́’￼_²，´%ºａ&lt;９о=５‘[​。‐℅＆－½§¤ð|]>Â ï»¿âÃ¢ÂÂ?ââ‎‎¦" name="ctl00$cphBodyContent$PersonalDetails1$txtLastName" class="field-data watermark" placeholder="Last name" id="txtLastName" class="Individual" /><button type="button" class="field-feedback" data-tooltip-toggle data-target="#txtLastName_tt" aria-label="mobile tooltip toggle" tabindex="-1"><i class="icon-question" aria-hidden="true"></i></button>
+                                                                </div>
+                                                                <div id="txtLastName_e" class="error-message"></div>
+                                                                <div class="clearfix"></div><span id="txtLastName_tt" payoneer="ToolTip" class="info" data-cssclass="payoneer" title="Last name used in your government-issued ID, written in English characters" data-triggercontrol="txtLastName"><span class="info-text">Last name used in your government-issued ID, written in English characters</span></span>
+                                                            </div>
+
+
+                                                            <div class="form-object">
+                                                                <span class="error-star"></span>
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input id="email_i" payoneer="TextBox" type="email" data-charsToReplace="　" name="ctl00$cphBodyContent$PersonalDetails1$txtEmail" class="field-data watermark" placeholder="Email address" id="txtEmail" /><button type="button" class="field-feedback" data-tooltip-toggle data-target="#txtEmail_tt" aria-label="mobile tooltip toggle" tabindex="-1"><i class="icon-question" aria-hidden="true"></i></button>
+                                                                </div>
+                                                                <div id="txtEmail_e" class="error-message"></div>
+                                                                <div class="clearfix"></div><span id="txtEmail_tt" payoneer="ToolTip" class="info" data-cssclass="payoneer" title="This email address will be used to access your account and send you communications." data-triggercontrol="txtEmail"><span class="info-text">This email address will be used to access your account and send you communications.</span></span>
+                                                            </div>
+
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="phonenumber" class="field-data watermark" placeholder="Phone Number" id="phonenumber" />
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="form-object Company">
+                                                                <span class="error-star"></span>
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="DateTimePicker" data-mode="datepicker" type="text" name="ctl00$cphBodyContent$PersonalDetails1$datepicker" readonly="readonly" maxlength="10" data-showon="both" data-changemonth="true" data-changeyear="true" data-maxdate="1" data-defaultdate="03/04/2021 00:00" class="field-data watermark" validate="validate"  data-charsToReplace="　" autocomplete="off" placeholder="Date of birth" id="datepicker" class="Company" /><input type="hidden" name="ctl00$cphBodyContent$PersonalDetails1$alt_datepicker" id="alt_datepicker" /><button type="button" class="field-feedback" data-tooltip-toggle data-target="#datepicker_tt" aria-label="mobile tooltip toggle" tabindex="-1"><i class="icon-question" aria-hidden="true"></i></button>
+                                                                </div>
+                                                                <div id="datepicker_e" class="error-message"></div>
+                                                                <div class="clearfix"></div><span id="datepicker_tt" payoneer="ToolTip" class="info" data-cssclass="payoneer" title="Date of birth as listed on the authorized representative&#39;s government-issued ID" data-triggercontrol="datepicker"><span class="info-text">Date of birth as listed on the authorized representative's government-issued ID</span></span>
+                                                            </div>
+<!--                                                            <div class="clearfix"></div>-->
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                
+                                                                <div class="field field-select">
+                                                                    <select name="ctl00$cphBodyContent$ContactDetails1$ddlState" class="field-data selectCustom watermark" data-rule-required="true" placeholder="Gender" id="gender">
+                                                                        <option value="" disabled="disabled" selected="selected">
+                                                                            Please Select
+                                                                        </option>
+                                                                        <option value="Male">
+                                                                            Male
+                                                                        </option>
+                                                                        <option value="Female">
+                                                                            Female
+                                                                        </option>
+                                                                        <option value="Prefer not to say">
+                                                                            Prefer not to say
+                                                                        </option>
+
+                                                                    </select><span class='selectCustomBox'><span class='selectCustomBoxInner'>&nbsp;</span></span>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                
+                                                                
+                                                            <div class="field field-select">
+                                                                <select name="county_u" class="field-data selectCustom watermark hasValue" data-rule-pattern="^[\-a-zA-Z0-9]*$" data-msg-pattern="Please choose a valid country
+" data-rule-minLength="0" data-msg-minLength="The field must contain at least {0} characters." data-rule-maxLength="3" data-msg-maxLength="Maximum field length of {0} for country was exceeded." data-charsToReplace="　" placeholder="Country" id="ddlResidencyCountries" class="Individual">
+                                                                    <option value="" selected="">Country</option>
                            <option value="Afganistan">Afghanistan</option>
                            <option value="Albania">Albania</option>
                            <option value="Algeria">Algeria</option>
@@ -330,145 +717,242 @@ if(isset($_SESSION['id'])){
                            <option value="Zaire">Zaire</option>
                            <option value="Zambia">Zambia</option>
                            <option value="Zimbabwe">Zimbabwe</option>
-                        </select>
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-flag"></span>
-						<input type="text" placeholder="Zip/Postal code" id="zip_code">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-flag"></span>
-						<input type="text" placeholder="Home Address" id="home_address">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-						<input type="text" placeholder="Mother's maiden name" id="maiden_name">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-						<input type="text" placeholder="Next of kin full name" id="next_of_kin">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-user"></span>
-						<input type="text" placeholder="Next of kin Address" id="next_of_kin_address">
-					</div>
-					<div class="icon1">
-						<span class="fa fa-lock"></span>
-						<input type="password" placeholder="Password" id="password1" name="password">
-					</div>
-					<div class="icon1">
-						<span class="fa fa-lock"></span>
-						<input type="password" placeholder="Confirm Password" id="password2" name="conf_pass">
-					</div>
-                    <div class="icon1">
-						<span class="fa fa-lock"></span>
-						<input type="text" placeholder="" id="login_code" name="" value="<?php echo(rand(1000,9999)); ?>" readonly>
-                        <p style="color:red;width:inherit">&nbsp;&nbsp;FOUR DIGIT LOGIN CODE (Required for login, please keep secret)</p>
-					</div>
-                    <br>
-					<div class="bottom">
-						<button class="btn" id="submit">Register<span id="submitp"></span></button>
-					</div>
-                    <p class="error_message" style="width: 200% !important;"></p>
-                    <div class="links" style="padding-top:0% !important;">
-<!--						<p><a href="#">Forgot Password?</a></p>-->
-						<p class="right"><a href="../login/" style="float: left">Registered? <span style="color:blue">login</span></a></p>
-						<div class="clear"></div>
-					</div>
-				</form>	
-			</div>
-		</div>
-		
-		<!-- copyright -->
+                                                                </select><span class='selectCustomBox'><span class='selectCustomBoxInner'>Nigeria</span></span><button type="button" class="field-feedback" data-tooltip-toggle data-target="#ddlResidencyCountries_tt" aria-label="mobile tooltip toggle" tabindex="-1"><i class="icon-question" aria-hidden="true"></i></button>
+                                                            </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="zip_code" class="field-data watermark" placeholder="Zip/Postal Code" id="zip_code" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="home_address" class="field-data watermark" placeholder="Home Address" id="home_address" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="maiden_name" class="field-data watermark" placeholder="Mother's Maiden Name" id="maiden_name" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="next_kin_name" class="field-data watermark" placeholder="Next of Kin's Full name" id="next_kin_name" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="text" name="next_kin_address" class="field-data watermark" placeholder="Next of Kin's Address" id="next_kin_address" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="password" name="password1" class="field-data watermark" placeholder="Password" id="password1" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="password" name="password" class="field-data watermark" placeholder="Confirm Password" id="password" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-object">
+                                                                <div class="field-description input-placeholder"></div>
+                                                                <div class="field">
+                                                                    <input payoneer="TextBox" type="four_digit" name="login_code" class="field-data watermark" readonly id="login_code" value="<?php echo(rand(1000,9999)); ?>">
+                                                                    
+                                                                </div>
+                                                                <p style="color:red;width:inherit">FOUR DIGIT LOGIN CODE (Required for login, please keep secret)</p>
+                                                            </div>
+                                                            <div id="error-messages">                                                          
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
 <!--
-		<div class="copyright">
-			<p>© 2019 Slide Login Form . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
-		</div>
+                                                    <div class="slide-image">
+                                                        <img border="0" class="persoanlDetailsRegistrationImage" />
+                                                    </div>
 -->
-		<!-- //copyright --> 
-	</div>
-</div>	
-<!-- //main -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
+                                                    
+                                                    <div class="clearfix"></div>
+                                                    <br><br>
+                                                    
+                                                </div>
+                                                
+                                                <div class="slide-buttons">
+
+
+                                                <div class="go-forward next-button" bis_skin_checked="1">
+                                                    <span class="btn"><input type="submit" value="Register" class="button" id="save_person_details"><div class="clearfix" bis_skin_checked="1"></div></span>
+                                                </div>
+                                                    <div class="clearfix"></div>
+                                                    <br><br><br>
+                                                    
+
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </li>
+
+
+
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+ 
+
+
+                </section>
+
+
+<!--
+                <div class="form-object" style="display:none;">
+                    <span class="error-star"></span>
+                    <div class="field-description input-placeholder"></div>
+                    <div class="field">
+                        <input payoneer="TextBox" type="text" name="ctl00$cphBodyContent$RegistrationId" class="field-data" id="RegistrationId" />
+                    </div>
+                    <div id="RegistrationId_e" class="error-message"></div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="form-object" style="display:none;">
+                    <span class="error-star"></span>
+                    <div class="field-description input-placeholder"></div>
+                    <div class="field">
+                        <input payoneer="TextBox" type="text" name="ctl00$cphBodyContent$txtSessionKey" class="field-data" id="txtSessionKey" />
+                    </div>
+                    <div id="txtSessionKey_e" class="error-message"></div>
+                    <div class="clearfix"></div>
+                </div>
+-->
+
+                <div class="safe"></div>
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="fw">
+                <div class="sw">
+                    <div class="inner">Skip Bank is regulated in the United States as a registered Money Services Business with FinCEN and as a licensed money transmitter in various U.S. states. Skip Bank is a regulated E-Money Institution, licensed by the Financial Services Commission (FSC), Gibraltar, under the Financial Services (Electronic Money) Regulations 2011 and the Financial Services (Banking) Act 1992.
+                        <span class="links"><a>© 2020 Skip, All Rights Reserved</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript">
+        (function() {
+            window._pxAppId = 'PX879Tg0qA';
+            // Custom parameters
+            // window._pxParam1 = "<param1>";
+            var p = document.getElementsByTagName('script')[0],
+                s = document.createElement('script');
+            s.async = 1;
+            s.src = '//client.perimeterx.net/PX879Tg0qA/main.min.js';
+            p.parentNode.insertBefore(s, p);
+        }());
+
+    </script>
+    
+
 <script>
-    $(document).ready(function(){
-     $("form").submit(function(event){
-      event.preventDefault();
-      var name = $("#name").val();
-      var phone = $("#phone").val();
-      var email = $("#email").val();
-      var DOB = $("#DOB").val();
-      var gender = $("#gender").val();
-      var country = $("#country").val();
-      var zip_code = $("#zip_code").val();
-      var home_address = $("#home_address").val();
-      var maiden_name = $("#maiden_name").val();
-      var next_of_kin = $("#next_of_kin").val();
-      var next_of_kin_address = $("#next_of_kin_address").val();
-      var password1 = $("#password1").val();
-      var password2 = $("#password2").val();
-      var login_code = $("#login_code").val();
-      var submit =    $("#submit").val();
-      
-        
-//        $("#name").val('');
-//        $("#email").val('');
-//        $("#phone").val('');
-//        $("#zip_code").val('');
-//        $("#home_address").val('');
-//        $("#maiden_name").val('');
-//        $("#next_of_kin").val('');
-//        $("#next_of_kin_address").val('');
-//        $("#country  option:selected").html('Country');
-//        $("#gender  option:selected").html('Gender');
-//        $("#username").val('');
-//        $("#type option:selected").html('Account Type');
-//        $("#currency  option:selected").html('Choose the currency');
-         $("#password1").val('');
-         $("#password2").val('');
-         $("#submit").html('<div class="an_container"><div class="yellow"></div><div class="red"></div><div class="blue"></div><div class="violet"></div></div>');
-//         $("#submitp").html('...');
-//         $("#submit").hide("slide", { direction: "left" });
-    setTimeout(function(){
+document.getElementById("aspnet_Form").onsubmit = function(event) {submitFunction(event)};
+
+function submitFunction(event) {
+  event.preventDefault();
+  document.getElementById("save_person_details").value = "...";
+    var first_name = document.getElementById("first_name").value;
+    var last_name = document.getElementById("last_name").value;
+    
+    var name = last_name + " " + first_name;
+    var email = document.getElementById("email_i").value;
+    var phone = document.getElementById("phonenumber").value;
+    var DOB = document.getElementById("datepicker").value;
+    var gender = document.getElementById("gender").value;
+    var country = document.getElementById("ddlResidencyCountries").value;
+    var zip_code = document.getElementById("zip_code").value;
+    var home_address = document.getElementById("home_address").value;
+    var maiden_name = document.getElementById("maiden_name").value;
+    var next_of_kin = document.getElementById("next_kin_name").value;
+    var next_of_kin_address = document.getElementById("next_kin_address").value;
+    var password1 = document.getElementById("password1").value;
+    var password2 = document.getElementById("password").value;
+    var login_code = document.getElementById("login_code").value;
+    var submit  = document.getElementById("save_person_details").value;
 
 
-      $(".error_message").load("../phpscripts/signup.php", {
-       name : name,
-       phone : phone,
-       email : email,
-       DOB : DOB,
-       gender : gender,
-       country : country,
-       zip_code : zip_code,
-       home_address : home_address,
-       maiden_name : maiden_name,
-       next_of_kin : next_of_kin,
-       next_of_kin_address : next_of_kin_address,
-       password1 : password1,
-       password2 : password2,
-       login_code : login_code,
-       submit : submit
-      });
-       $("#submit").html('Register'); 
-      },2500);
+    var data_t =
+       "name=" + name + "&phone=" + phone + "&email=" + email + "&DOB=" + DOB + "&gender=" + gender + "&country=" + country + "&zip_code=" + zip_code + "&home_address=" + home_address + "&maiden_name=" + maiden_name + "&next_of_kin=" + next_of_kin + "&next_of_kin_address=" + next_of_kin_address + "&password1=" + password1 + "&password2=" + password2 + "&login_code=" + login_code + "&submit=" + submit;
+    
+function loadXMLDoc(data_t) {
+    var xmlhttp = new XMLHttpRequest();
 
-     });   
-    });
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+           if (xmlhttp.status == 200) {
+               document.getElementById("error-messages").innerHTML = xmlhttp.responseText;
+               console.log(xmlhttp.responseText);
+           }
+           else if (xmlhttp.status == 400) {
+//              alert('There was an error 400');
+               console.log(xmlhttp.responseText);
+           }
+           else {
+//               alert('something else other than 200 was returned');
+               console.log(xmlhttp.responseText);
+           }
+        }
+    };
+
+    xmlhttp.open("POST", "../phpscripts/signup.php", true);
+    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xmlhttp.send(data_t);
+}
+loadXMLDoc(data_t);
+
+document.getElementById("save_person_details").value = "Register";
+}
 </script>
+    
+    
+    <noscript>
+        <div style="position:fixed; top:0; left:0; display:none" width="1" height="1">
+            <img src="//collector-PXZ0I3O61h.perimeterx.net/api/v1/collector/noScript.gif?appId=PXZ0I3O61h" alt="PxPixel">
+        </div>
+    </noscript>
 
 </body>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f61cc81f0e7167d0010bf8f/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 </html>

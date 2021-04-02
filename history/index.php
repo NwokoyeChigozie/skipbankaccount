@@ -1,570 +1,285 @@
-<?php include("../phpscripts/headscript.php");?>
+<?php include("../phpscripts/top.php");?>
 <?php $page = "history"; ?>
-<!DOCTYPE html>
-<html class=" " lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Triple Coin Options || Binary Brokers || CFD || Crypto Traders">
-
-    <title>SKIP BANK</title>
-
-    <!-- Bootstrap core CSS -->
-
-    <link href="../dashboard/Stylesheets/bootstrap.css" rel="stylesheet">
-
-    <link href="../dashboard/Stylesheets/font-awesome.css" rel="stylesheet">
-    <link href="../dashboard/Stylesheets/animate.css" rel="stylesheet">
+                <div id="LeftContent" class="maDashboard">
+                    <div id="widgetContainer" class="widgetContainer" bis_skin_checked="1">
+                        <div class="myaccount" bis_skin_checked="1">
+                            <div class="myaccount__container legacy" bis_skin_checked="1">
+                                <div class="myaccount__container__outlet" bis_skin_checked="1">
+                                    <div class="myaccount__container__wrapper" bis_skin_checked="1">
+                                        <div class="dashboard-outlet" bis_skin_checked="1">
+                                            <div class="widget-handler dashboard-widget-handler jumbotron-widget--not_visible" bis_skin_checked="1">
+                                                <!--                                                <div class="widget-template actions-required-widget" bis_skin_checked="1"></div>-->
+                                                <div class="widget-template jumbotron-widget" bis_skin_checked="1">
+                                                    <div class="sc-fzoYkl hfPoTr" bis_skin_checked="1"></div>
+                                                </div>
+                                                
+                                                <div id="LeftContent" class="" bis_skin_checked="1">
+                                                    <div id="widgetContainer" class="widgetContainer" bis_skin_checked="1">
+                                                        <div class="myaccount" bis_skin_checked="1">
+                                                            <div class="myaccount__container legacy" bis_skin_checked="1">
+                                                                <div class="myaccount__container__outlet" bis_skin_checked="1">
+                                                                    <div class="myaccount__container__wrapper" bis_skin_checked="1">
+                                                                        <section id="activity" class="activity page-component activity--legacy">
+                                                                            <div class="activity__activity-body--legacy" bis_skin_checked="1">
+                                                                                <div class="transactions" bis_skin_checked="1">
+                                                                                    <div class="transactions__body" bis_skin_checked="1">
+                                                                                        <div class="myaccount-page-title myaccount-page-title--legacy" bis_skin_checked="1">
+                                                                                            <div class="myaccount-page-title__wrapper" bis_skin_checked="1">
+                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">History</span></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="transaction-search-new transaction-search-new--legacy" bis_skin_checked="1"></div>
+                                                                                        
+                                                                                        <div class="transactions__body__tables transactions__body__tables--legacy" bis_skin_checked="1">
+                                                                                            <div class="card transactions__body__tables__table-transactions transactions__body__tables__table-transactions--legacy card--open card--active card--no-padding card--shadow" bis_skin_checked="1">
+                                                                                                <div class="card__header card__header--collapsable" bis_skin_checked="1"><i class="card__header__expander icon-right-open-big"></i>
+                                                                                                    <div class="card__header__title" bis_skin_checked="1">
+                                                                                                        <h2>All Transactions</h2>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="card__content" bis_skin_checked="1">
+                                                                                                    <div class="card__body" bis_skin_checked="1">
+                                                                                                        <div class="table table--clickable table--show-selection" bis_skin_checked="1">
+                                                                                                            <div class="table__actions" bis_skin_checked="1">
+                                                                                                                <div class="table__actions__header-text" bis_skin_checked="1"></div>
+                                                                                                                
+                                                                                                            </div>
+                                                                                                            <div class="table-wrapper" bis_skin_checked="1" style="min-width: initial;">
+                                                                                                                <table>
+                                                                                <colgroup>
+                                                                                    <col span="1" class="table__table-col column-date">
+                                                                                    <col span="1" class="table__table-col column-activity">
+                                                                                    <col span="1" class="table__table-col column-amount">
+                                                                                    <col span="1" class="table__table-col column-payout-method">
+                                                                                    <col span="1" class="table__table-col column-statement">
+                                                                                    <col span="1" class="table__table-col column-action">
+                                                                                    <col span="1" class="table__table-col column-status">
+                                                                                    <col span="1" class="table__table-col column-date-status-mobile">
+                                                                                    <col span="1" class="col--clickable">
+                                                                                </colgroup>
+                                                                                <thead>
+                                                                                    <tr class="table__table-tr">
+                                                                                        <th colspan="1" class="table__table-th column-amount">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Date</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Date</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="1" class="table__table-th column-activity">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Description</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Description</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="2" class="table__table-th column-amount">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Comment</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Comment</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
 <!--
-<link rel="stylesheet" href="../login/Fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../login/Fonts/font-awesome-4.7.0/css/font-awesome.css">
+                                                                                        <th colspan="1" class="table__table-th column-payout-method">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Comment</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Comment</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="apple-touch-icon" sizes="120x120" href="../apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="manifest" href="../site.webmanifest">
-<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#fff7f7">
-<meta name="theme-color" content="#ffffff">
-    <!-- Custom styling plus plugins -->
-    <link href="../dashboard/Stylesheets/custom.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../dashboard/Stylesheets/jquery-jvectormap-2.css">
-    <link href="../dashboard/Stylesheets/green.css" rel="stylesheet">
-    <link href="../dashboard/Stylesheets/floatexamples.css" rel="stylesheet" type="text/css">
-
-    <script async="" src="../dashboard/Scripts/default.js" charset="UTF-8" crossorigin="*"></script>
-    <script src="../dashboard/Scripts/jquery_006.js"></script>
-    <script src="../dashboard/Scripts/nprogress.js"></script>
-
-    <!--[if lt IE 9]>
-        <script src="../assets/js/ie8-responsive-file-warning.js"></script>
-        <![endif]-->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    <style type="text/css">
-        <?php 
-        include("../phpscripts/nav_mobile.php");
-        ?>
-        @keyframes tawkMaxOpen {
-            0% {
-                opacity: 0;
-                transform: translate(0, 30px);
-                ;
-            }
-
-            to {
-                opacity: 1;
-                transform: translate(0, 0px);
-            }
-        }
-
-        @-moz-keyframes tawkMaxOpen {
-            0% {
-                opacity: 0;
-                transform: translate(0, 30px);
-                ;
-            }
-
-            to {
-                opacity: 1;
-                transform: translate(0, 0px);
-            }
-        }
-
-        @-webkit-keyframes tawkMaxOpen {
-            0% {
-                opacity: 0;
-                transform: translate(0, 30px);
-                ;
-            }
-
-            to {
-                opacity: 1;
-                transform: translate(0, 0px);
-            }
-        }
-
-        #oTyJEHT-1570635865410 {
-            outline: none !important;
-            visibility: visible !important;
-            resize: none !important;
-            box-shadow: none !important;
-            overflow: visible !important;
-            background: none !important;
-            opacity: 1 !important;
-            filter: alpha(opacity=100) !important;
-            -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity1) !important;
-            -moz-opacity: 1 !important;
-            -khtml-opacity: 1 !important;
-            top: auto !important;
-            right: 10px !important;
-            bottom: 90px !important;
-            left: auto !important;
-            position: fixed !important;
-            border: 0 !important;
-            min-height: 0 !important;
-            min-width: 0 !important;
-            max-height: none !important;
-            max-width: none !important;
-            padding: 0 !important;
-            margin: 0 !important;
-            -moz-transition-property: none !important;
-            -webkit-transition-property: none !important;
-            -o-transition-property: none !important;
-            transition-property: none !important;
-            transform: none !important;
-            -webkit-transform: none !important;
-            -ms-transform: none !important;
-            width: auto !important;
-            height: auto !important;
-            display: none !important;
-            z-index: 2000000000 !important;
-            background-color: transparent !important;
-            cursor: auto !important;
-            float: none !important;
-            border-radius: unset !important;
-            pointer-events: auto !important
-        }
-
-        #qADMEna-1570635865412.open {
-            animation: tawkMaxOpen .25s ease !important;
-        }
-          @media (max-width: 480px) and (min-width: 320px) {
-            .text-font{
-                font-size: 15px !important; 
-            }
-            .min-text-font{
-             font-size: 10px !important;    
-            }
-            .min-text-font2{
-             font-size: 9px !important;    
-            }
-}
-    </style>
-</head>
-
-<body class="nav-md">
-
-    <div class="container body">
-
-        <div class="main_container">
-            <?php include("../phpscripts/usernav.php"); ?>
-
-                </div>
-                <!-- /top tiles -->
-
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2><i class=""></i> Trade history</h2>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
-                                <div class="col-md-8 col-md-offset-2">
-                                    <p>
-<!--                                        <strong>Ensure account details are correct</strong>-->
-                                    </p>
-                                    
-
-             <table class="table table-striped projects">
-               <thead>
-                  <tr>
-
-                      <th style="width: 35%; text-align:center">
-                          Transaction
-                      </th>
 <!--
-                      <th style="width: 15%; text-align:center">
-                         Amount
-                      </th>
+                                                                                        <th colspan="1" class="table__table-th column-statement">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1"></div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1"></div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="1" class="table__table-th column-action">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Action</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Action</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="1" class="table__table-th column-status">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Status</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Status</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="1" class="table__table-th column-date-status-mobile">
+                                                                                            <div bis_skin_checked="1">
+                                                                                                <div class="table__table-th__title-shadow" bis_skin_checked="1">Status</div>
+                                                                                                <div class="table__table-th__title-content" bis_skin_checked="1">
+                                                                                                    <div class="table__table-th__title-content__title-text" bis_skin_checked="1">Status</div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </th>
+                                                                                        <th colspan="1" class="table__table-th table__table-th--clickable"></th>
 -->
-
-                      <th style="width: 15%; text-align:center">
-                          Date
-                      </th>
-                      <th style="width: 15%; text-align:center">
-                          Status
-                      </th>
-                      <th style="width: 60%; text-align:center">
-                          Comment
-                      </th>
-<!--
-                      <th style="width: 8%" class="text-center">
-                          Account status
-                      </th>
-                      <th style="width: 8%" class="text-center">
-                          Last seen
-                      </th>
--->
-                  </tr>
-              </thead>
-              <tbody>
-
-<?php 
+                                                                                    </tr>
+                                                                                </thead>
+                                                            <tbody>
+                                                                <?php 
+$prods = [];
 $sql1 = "SELECT * FROM `$username` ORDER BY id DESC" ;
           if($result = mysqli_query($link1, $sql1)){
     if(mysqli_num_rows($result)>0){
         while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                   $transactionid = $row["id"];
-            
-               $transaction = $row["transaction"];
-            
-               $amount = $row["amount"];
-               $comment = $row["comment"];
-               $currency = $row["currency"];
-               if($currency == '$'){
-                  $amount = round($amount, 2);
-               }
-            if(strpos(strtolower($transaction), "debit") !== false){
-                $color = "red";
-            }elseif(strpos(strtolower($transaction), "credit") !== false){
-                $color = "green";
-            }else{
-                $color = "blue";
-//                echo "Out: " . strpos(strtolower($transaction), "mmm") . "end";
-//                echo strpos(strtolower($transaction), "withdraw") != '';
-            }
-               $date = $row["date"];
-//            $date = date("F d, Y h:i:s", $date);
-               $status = $row["status"];  
+            $prods[] = $row;
+//                   $transactionid = $row["id"];
 //            
-//               $email = $row["email"];
-//               $email = strtolower($email);
-//               $email = ucfirst($email);
-//                $country = strtoupper($country);
+//               $transaction = $row["transaction"];
 //            
-                   echo " <tr style='color:$color !important'>";
-                   echo "
-                   <td style='text-align:center'>$transaction</td>
-                   <td style='text-align:'>$date</td>     
-                   <td style='text-align:center'>$status</td> 
-                    <td style='text-align:center;max-width:70px;word-wrap:break-word'>$comment</td>";
-                   echo " </tr>";
+//               $amount = $row["amount"];
+//               $comment = $row["comment"];
+//               $currency = $row["currency"];
+//               if($currency == '$'){
+//                  $amount = round($amount, 2);
+//               }
+//            if(strpos(strtolower($transaction), "debit") !== false){
+//                $color = "red";
+//            }elseif(strpos(strtolower($transaction), "credit") !== false){
+//                $color = "green";
+//            }else{
+//                $color = "blue";
+//            }
+//               $date = $row["date"];
+////            $date = date("F d, Y h:i:s", $date);
+//               $status = $row["status"]; 
         }
     }
           }
+    $new_prods = $prods;
+                                        
+    if(!empty($new_prods) && $new_prods[0] != ''){
+        foreach($new_prods as $prod){
+            $t_time = $prod['date'];
+            $t_transaction = $prod['transaction'];
+            $t_amount = $prod['amount'];
+            $t_comment = $prod['comment'];
+            $t_currency = $prod['currency'];
+            $t_status = $prod['status'];
+            $t_stamp = strtotime($t_time);
+            $t_a = explode(',', $t_time);
+            $t_time = implode('', $t_a);
+            $t_a = explode(' ', $t_time);
+            $color = '';
+            
+//            receive
+            if(strpos(strtolower($t_transaction), "debit") !== false || strpos(strtolower($t_transaction), "pay") !== false){
+                $color = "red";
+            }elseif(strpos(strtolower($t_transaction), "credit") !== false || strpos(strtolower($t_transaction), "receive") !== false){
+                $color = "green";
+            }else{
+                $color = "blue";
+            }
+//            print_r($t_a);
+            
+            ?>
+             <tr class="table__table-tr table__table-tr--data" style="color:<?php echo $color; ?> !important">
+                                                                    <td class="table__table-td column-date">
+                                                                        <div bis_skin_checked="1">
+                                                                            <div bis_skin_checked="1">
+                                                                                
+                                                                                <div class="activity-date" bis_skin_checked="1"><?php echo $t_a[1] . " " . $t_a[0]; ?></div>
+                                                                                <div class="activity-year" bis_skin_checked="1"><?php echo $t_a[2]; ?></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="table__table-td column-activity">
+                                                                        <div bis_skin_checked="1">
+                                                                            <div class="activity-description" bis_skin_checked="1"><?php echo $t_transaction; ?><br>
+                                                                                <span class="activity-description__status"><?php echo $t_status; ?></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="table__table-td column-amount" colspan="2">
+                                                                        <div bis_skin_checked="1"><span style="font-size:13px"><?php echo $t_comment; ?></span></div>
+                                                                    </td>
+<!--
+                                                                    <td class="table__table-td column-payout-method">
+                                                                        <div bis_skin_checked="1">
+                                                                            <div bis_skin_checked="1">
+
+                                                                                <div class="payout-method-view" bis_skin_checked="1" style="max-width:200px">
+                                                                                    <div class="prefix-view" bis_skin_checked="1" ><?php echo $t_comment; ?></div>
+                                                                                    <div class="suffix-view" bis_skin_checked="1"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+-->
+                                                                    <td class="table__table-td column-statement">
+                                                                        <div bis_skin_checked="1">
+                                                                            <div bis_skin_checked="1"></div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="table__table-td column-action">
+                                                                        <div bis_skin_checked="1"><span> </span></div>
+                                                                    </td>
+                                                                    <td class="table__table-td column-status">
+                                                                        <div bis_skin_checked="1"><span> Completed</span></div>
+                                                                    </td>
+                                                                    <td class="table__table-td column-date-status-mobile">
+                                                                        <div bis_skin_checked="1"><span>17 Jun 2020<span class="status-span"> - Completed</span></span></div>
+                                                                    </td>
+                                                                    <td class="table__table-td table__table-td--clickable">
+<!--                                                                        <i class="icon-expander"></i>-->
+                                                                    </td>
+                                                                </tr>                                                   
+                                                                
+                                                                
+                                                                
+            <?php
+        }
+    }else{
+        
+    }
 ?>
-
-                  
-                  
-                  
-                  
-              </tbody>
-          </table>                                
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-
+                                                                
+                                                            </tbody>
+                                                                                                                </table>
+                                                                                                            </div>
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="" bis_skin_checked="1">
+                                                                <div class="notification-list" bis_skin_checked="1"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="" bis_skin_checked="1">
+                                <div class="notification-list" bis_skin_checked="1"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="clearfix"></div>
-                <!-- footer content -->
-
-
-            </div>
-
-
-        </div>
-    </div>
-    <br>
-    <footer>
-        <div class="copyright-info">
-            <p class="pull-right">© THE SKIP BANK
-            </p>
-        </div>
-        <div class="clearfix"></div>
-    </footer>
-    <!-- /footer content -->
-    </div>
-    <!-- /page content -->
-
-    </div>
-
-    </div>
-
-    <div id="custom_notifications" class="custom-notifications dsp_none">
-        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
-        </ul>
-        <div class="clearfix"></div>
-        <div id="notif-group" class="tabbed_notifications"></div>
-    </div>
-
-    <script src="../dashboard/Scripts/bootstrap.js"></script>
-
-    <!-- gauge js -->
-    <script type="text/javascript" src="../dashboard/Scripts/gauge.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/gauge_demo.js"></script>
-    <!-- bootstrap progress js -->
-    <script src="../dashboard/Scripts/bootstrap-progressbar.js"></script>
-    <script src="../dashboard/Scripts/jquery_007.js"></script>
-    <!-- icheck -->
-    <script src="../dashboard/Scripts/icheck.js"></script>
-    <!-- daterangepicker -->
-    <script type="text/javascript" src="../dashboard/Scripts/moment.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/daterangepicker.js"></script>
-    <!-- chart js -->
-    <script src="../dashboard/Scripts/chart.js"></script>
-
-    <script src="../dashboard/Scripts/custom.js"></script>
-
-    <!-- flot js -->
-    <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_003.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_008.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_009.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/date.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_005.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_002.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/curvedLines.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery_004.js"></script>
-    <script>
-        $(document).ready(function() {
-            // [17, 74, 6, 39, 20, 85, 7]
-            //[82, 23, 66, 9, 99, 6, 2]
-            var data1 = [
-                [gd(2012, 1, 1), 17],
-                [gd(2012, 1, 2), 74],
-                [gd(2012, 1, 3), 6],
-                [gd(2012, 1, 4), 39],
-                [gd(2012, 1, 5), 20],
-                [gd(2012, 1, 6), 85],
-                [gd(2012, 1, 7), 7]
-            ];
-
-            var data2 = [
-                [gd(2012, 1, 1), 82],
-                [gd(2012, 1, 2), 23],
-                [gd(2012, 1, 3), 66],
-                [gd(2012, 1, 4), 9],
-                [gd(2012, 1, 5), 119],
-                [gd(2012, 1, 6), 6],
-                [gd(2012, 1, 7), 9]
-            ];
-            $("#canvas_dahs").length && $.plot($("#canvas_dahs"), [
-                data1, data2
-            ], {
-                series: {
-                    lines: {
-                        show: false,
-                        fill: true
-                    },
-                    splines: {
-                        show: true,
-                        tension: 0.4,
-                        lineWidth: 1,
-                        fill: 0.4
-                    },
-                    points: {
-                        radius: 0,
-                        show: true
-                    },
-                    shadowSize: 2
-                },
-                grid: {
-                    verticalLines: true,
-                    hoverable: true,
-                    clickable: true,
-                    tickColor: "#d5d5d5",
-                    borderWidth: 1,
-                    color: '#fff'
-                },
-                colors: ["rgba(38, 185, 154, 0.38)", "rgba(3, 88, 106, 0.38)"],
-                xaxis: {
-                    tickColor: "rgba(51, 51, 51, 0.06)",
-                    mode: "time",
-                    tickSize: [1, "day"],
-                    //tickLength: 10,
-                    axisLabel: "Date",
-                    axisLabelUseCanvas: true,
-                    axisLabelFontSizePixels: 12,
-                    axisLabelFontFamily: 'Verdana, Arial',
-                    axisLabelPadding: 10
-                    //mode: "time", timeformat: "%m/%d/%y", minTickSize: [1, "day"]
-                },
-                yaxis: {
-                    ticks: 8,
-                    tickColor: "rgba(51, 51, 51, 0.06)",
-                },
-                tooltip: false
-            });
-
-            function gd(year, month, day) {
-                return new Date(year, month - 1, day).getTime();
-            }
-        });
-
-    </script>
-
-    <!-- worldmap -->
-    <script type="text/javascript" src="../dashboard/Scripts/jquery-jvectormap-2.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/gdp-data.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="../dashboard/Scripts/jquery-jvectormap-us-aea-en.js"></script>
-    <!-- pace -->
-    <script src="../dashboard/Scripts/pace.html"></script>
-
-    <script type="text/javascript">
-        function copyToClipboard(element) {
-            var $temp = $("<input>");
-            $("body").append($temp);
-            $temp.val($(element).text()).select();
-            document.execCommand("copy");
-            alert("Address Copied");
-            $temp.remove();
-        }
-
-    </script>
-    <script>
-        $(function() {
-            $('#world-map-gdp').vectorMap({
-                map: 'world_mill_en',
-                backgroundColor: 'transparent',
-                zoomOnScroll: false,
-                series: {
-                    regions: [{
-                        values: gdpData,
-                        scale: ['#E6F2F0', '#149B7E'],
-                        normalizeFunction: 'polynomial'
-                    }]
-                },
-                onRegionTipShow: function(e, el, code) {
-                    el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
-                }
-            });
-        });
-
-    </script>
-    <!-- skycons -->
-    <script src="../dashboard/Scripts/skycons.js"></script>
-    <script>
-        var icons = new Skycons({
-                "color": "#73879C"
-            }),
-            list = [
-                "clear-day", "clear-night", "partly-cloudy-day",
-                "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-                "fog"
-            ],
-            i;
-
-        for (i = list.length; i--;)
-            icons.set(list[i], list[i]);
-
-        icons.play();
-
-    </script>
-
-    <!-- dashbord linegraph -->
-    <script>
-        Chart.defaults.global.legend = {
-            enabled: false
-        };
-
-        var data = {
-            labels: [
-                "Crypto",
-                "EUR",
-                "USD",
-                "Nasdaq",
-                "Others"
-            ],
-            datasets: [{
-                data: [20, 25, 30, 15, 10],
-                backgroundColor: [
-                    "#BDC3C7",
-                    "#9B59B6",
-                    "#455C73",
-                    "#26B99A",
-                    "#3498DB"
-                ],
-                hoverBackgroundColor: [
-                    "#CFD4D8",
-                    "#B370CF",
-                    "#34495E",
-                    "#36CAAB",
-                    "#49A9EA"
-                ]
-
-            }]
-        };
-
-        var canvasDoughnut = new Chart(document.getElementById("canvas1"), {
-            type: 'doughnut',
-            tooltipFillColor: "rgba(51, 51, 51, 0.55)",
-            data: data
-        });
-
-    </script>
-    <!-- /dashbord linegraph -->
-
-    <script type="text/javascript">
-        function copyToClipboard(element) {
-            var $temp = $("<input>");
-            $("body").append($temp);
-            $temp.val($(element).text()).select();
-            document.execCommand("copy");
-            alert("Address Copied");
-            $temp.remove();
-        }
-
-    </script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f61cc81f0e7167d0010bf8f/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
-</body>
-
-</html>
-<?php ob_end_flush(); ?>
+<?php include("../phpscripts/bottom.php");?>
