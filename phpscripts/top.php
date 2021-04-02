@@ -559,8 +559,8 @@ function serializer($input){
                     </li>
                     <li> <a href="#" onclick="return false;"><span>Receive</span></a>
                         <ul>
-                            <li><a href='../fund?type=savings' target='_self'><span>Savings</span></a></li>
-                            <li><a href='../fund?type=investment' target='_self'><span>Investment</span></a></li>
+                            <li><a href='../fund/' target='_self'><span>Savings</span></a></li>
+                            <li><a href='../fund/' target='_self'><span>Investment</span></a></li>
                         </ul>
                     </li>
                     <li> <a href="../pay/"><span> Pay</span></a>
