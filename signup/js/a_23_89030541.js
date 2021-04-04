@@ -147,7 +147,6 @@ PayoneerTheme = {
         return n != "button" ? s + "<\/" + n + ">" : s + "<\/input>"
     }
 };
-/*! https://pubs.payoneer.com/Content/Common/Themes/Banana/theme.js */
 (function (n) {
     if (n) {
         PayoneerTheme.ClientValidation = {
@@ -1776,7 +1775,6 @@ function getTimestampInMillis(n) {
 }
 
 function debug() {}
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.core.js */
 (function (n, t) {
     var u = 0,
         f = /^ui-id-\d+$/;
@@ -1944,7 +1942,6 @@ function debug() {}
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.datepicker.js */
 (function (n, t) {
     n.extend(n.ui, {
         datepicker: {
@@ -2946,7 +2943,6 @@ function debug() {}
 $(document).ready(function () {
     $('[payoneer="DateTimePicker"]').payoneerDateTimePicker()
 });
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.widget.js */
 (function (n, t) {
     var r = 0,
         i = Array.prototype.slice,
@@ -3184,7 +3180,6 @@ $(document).ready(function () {
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.mouse.js */
 (function (n) {
     var t = !1;
     n(document).mouseup(function () {
@@ -3246,7 +3241,6 @@ $(document).ready(function () {
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.draggable.js */
 (function (n) {
     n.widget("ui.draggable", n.ui.mouse, {
         version: "1.10.4",
@@ -3625,7 +3619,6 @@ $(document).ready(function () {
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.resizable.js */
 (function (n) {
     function i(n) {
         return parseInt(n, 10) || 0
@@ -4144,7 +4137,6 @@ $(document).ready(function () {
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.button.js */
 (function (n) {
     var t, i = "ui-button ui-widget ui-state-default ui-corner-all",
         r = "ui-button-icons-only ui-button-icon-only ui-button-text-icons ui-button-text-icon-primary ui-button-text-icon-secondary ui-button-text-only",
@@ -4305,7 +4297,7 @@ $(document).ready(function () {
         }
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.position.js */
+
 (function (n, t) {
     n.ui = n.ui || {};
     var f, r = Math.max,
@@ -4570,7 +4562,6 @@ $(document).ready(function () {
             i.removeChild(t)
         }()
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.dialog.js */
 (function (n) {
     var t = {
             buttons: !0,
@@ -5687,7 +5678,6 @@ function (n) {
 $(document).ready(function () {
     $(".watermark").payoneerWatermark()
 });
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.effect.js */
 (function (n, t) {
     var i = "ui-effects-";
     n.effects = {
@@ -7331,7 +7321,6 @@ $(document).ready(function () {
     $('[payoneer="CheckBox"]').payoneerCheckbox();
     $('[payoneer="RadioButtons"]').payoneerRadioButtons()
 });
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.tooltip.js */
 (function (n) {
     var t = 0;
 
@@ -7650,7 +7639,6 @@ $(document).ready(function () {
         })
     })
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Common/modernizr-2.8.3.js */
 /*!
  * Modernizr v2.8.3
  * www.modernizr.com
@@ -8056,7 +8044,6 @@ window.Modernizr = function (n, t, i) {
         return t ? f(n, t, i) : f(n, "pfx")
     }, s.className = s.className.replace(/(^|\s)no-js(\s|$)/, "$1$2") + (k ? " js " + g.join(" ") : ""), u
 }(this, this.document);
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/jquery.ui.slider.js */
 (function (n) {
     var t = 5;
     n.widget("ui.slider", n.ui.mouse, {
@@ -8604,7 +8591,6 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('[payoneer="SlidingInfo"]').slidingInfo()
 });
-/*! https://pubs.payoneer.com/Content/Common/script/new_prefs.js */
 _ = '\t\tubq#elvqwzlmf#>#x\t\tpnqWjnf9#mft#Gbwf+1336/3/26*-dfwWjnfylmfLeepfw+*/\t\ttmwqWjnf9#mft#Gbwf+1336/5/26*-dfwWjnfylmfLeepfw+*/\t\t`lnsp9#X^/\t\t`lns9#mvoo/\t#\tpfwGl`9#evm`wjlm+fofnfmw*#x\tubq#qpow#>#mvoo8\twqz#x\tqpow#>#gl`vnfmw-dfwFofnfmwAzJg+fofnfmw*8\t~\t`bw`k+f*#x\t~\tje#+qpow#>>#mvoo##wzsfle+qpow*>>$vmgfejmfg$*#x\twqz#x\tqpow#>#gl`vnfmw-dfwFofnfmwpAzMbnf+fofnfmw*X3^8\t~\t`bw`k+f*#x\t~\t~#\tje#+qpow#>>#mvoo##wzsfle+qpow*>>$vmgfejmfg$*#x\t\telq+#{#>#38#{#?#gl`vnfmw-elqnp-ofmdwk8#{((#*#x\tubq#`vqqElqn#>#gl`vnfmw-elqnpX{^8\telq+#z#>#38#z#?#`vqqElqn-fofnfmwp-ofmdwk8#z((#*#x\tubq#`vqqFofnfmw#>#`vqqElqnXz^8\tje#+`vqqFofnfmw-mbnf#>>#fofnfmw##`vqqFofnfmw-jg#>>#fofnfmw#*#x\tqfwvqm#`vqqFofnfmw8\t~\t~\t~\t~\tqfwvqm#qpow8\t~/\t\t\tfuo9#evm`wjlm+jg*#x\tubq#qpow#>#!!8\twqz#x\tje#+wkjp-`lns#>>#mvoo*#x\twkjp-`lns#>#wkjp-pfwGl`+!`ojfmw@bspQfe!*8\t~\tje#+wzsfle+wkjp-`lns-dfw@lnslmfmwUfqpjlm*#">#$vmgfejmfg$*\tqpow#>#wkjp-`lns-dfw@lnslmfmwUfqpjlm+jg/#!@lnslmfmwJG!*8\t~#\t`bw`k#+f*#x\tubq#ofm#>#f-nfppbdf-ofmdwk8\tofm#>#+ofm#=#73#<#73#9#ofm#*8\tqpow#>#fp`bsf+f-nfppbdf-pvapwq+3/#ofm**8\t~\tqfwvqm#qpow8\t~/\t\t\tf{f`9#evm`wjlm+slppjaofp*#x\telq#+ubq#j#>#38#j#?#slppjaofp-ofmdwk8#j((*#x\twqz#x\tubq#ubo#>#fubo+slppjaofpXj^*8\tje#+ubo*#qfwvqm#ubo8\t~#`bw`k#+f*#x#~\t~\tqfwvqm#!!8\t~/\t\t\tolbg@lnsp9#evm`wjlm+*#x\tubq#`lnsp#>#X!B`qlabw!/#!Eobpk!/#!Rvj`hWjnf!/#!Ibub#Sovd.jm!/#!Gjqf`wlq!/#!Leej`f!^8\tubq#b`wjuf[#>#x\t!Eobpk!#9#X#!Pkl`htbufEobpk-Pkl`htbufEobpk!/#evm`wjlm+b{*#x#qfwvqm#b{-dfwUbqjbaof+!\'ufqpjlm!*8#~#^/\t!Gjqf`wlq!#9#X!PT@wo-PT@wo!/#evm`wjlm+b{*#x#qfwvqm#b{-Pkl`htbufUfqpjlm+!!*8#~#^\t~\t\telq#+ubq#j#>#38#j#?#`lnsp-ofmdwk8#j((*#x\tubq#mbnf#>#`lnspXj^8\tubq#ufqpjlm#>#!!8\t\twqz#x\tje#+mbujdbwlq-sovdjmp#%%#mbujdbwlq-sovdjmp-ofmdwk*#x\tubq#qfdf{#>#mft#QfdF{s+mbnf#(#!-)#+X3.:-\\^(*!*8\t\telq#+ubq#i#>#38#i#?#mbujdbwlq-sovdjmp-ofmdwk8#i((*#x\tubq#nbw`k8\t\tje#+nbw`k#>#qfdf{-f{f`+mbujdbwlq-sovdjmpXi^-mbnf**#x\tufqpjlm#>#nbw`kX2^8\t~#fopf#je#+nbw`k#>#qfdf{-f{f`+mbujdbwlq-sovdjmpXi^-gfp`qjswjlm**#x\tufqpjlm#>#nbw`kX2^8\t~\t~\t~#fopf#je#+tjmglt-B`wjuf[Laif`w#%%#b`wjuf[Xmbnf^*#x\twqz#x\tubq#b{#>#mft#B`wjuf[Laif`w+b`wjuf[Xmbnf^X3^*8\tufqpjlm#>#b`wjuf[Xmbnf^X2^+b{*8\t~#`bw`k#+f*#x\tufqpjlm#>#!!8\t~\t~\t~#`bw`k#+f*#x\tufqpjlm#>#f-nfppbdf8\t~\t\telvqwzlmf-`lnspXmbnf^#>#ufqpjlm8\t~\t~/\t\t\tdfwWjnfYm9#evm`wjlm+*#x\tqfwvqm#Nbwk-bap+wkjp-pnqWjnf#.#wkjp-tmwqWjnf*8\t~/\t\t\tjpPvnnfq9#evm`wjlm+*#x\tqfwvqm#+wkjp-dfwWjnfYm+*#">#3*8\t~/\t\t\tjpTjmwfq9#evm`wjlm+gbwf*#x\tubq#njmLeepfw#>#Nbwk-njm+wkjp-pnqWjnf/#wkjp-tmwqWjnf*8\tqfwvqm#+wkjp-jpPvnnfq+*#%%#gbwf-dfwWjnfylmfLeepfw+*#>>#njmLeepfw*8\t~/\t\t\tdfwGbzLeZq9#evm`wjlm+pwq*#x\tubq#qfpvow#>#38\tubq#obwfm`zEb`wlq#>#38\tje#+wkjp-jpTjmwfq+pwq*#*#x\tobwfm`zEb`wlq#>#wkjp-dfwWjnfYm+*8\t~\tqfpvow#>#.+pwq-dfwWjnfylmfLeepfw+*#(#obwfm`zEb`wlq*#,#53-38\t\tqfwvqm#qfpvow8\t~/\t\t\t`vqqGbwf9#evm`wjlm+*#x\tqfwvqm#mft#Gbwf+1336/6/4/12/00/77/;;;*-wlOl`bofPwqjmd+*8\t~/\t\t\t\tvpfqSqfep9#evm`wjlm#+gfavd*#x\twkjp-gfavd#>#gfavd8\tubq#pwq#>#mft#Gbwf+*8\t\tubq#bqq#>#mft#Bqqbz+!_!WE2_!!/#!_!327_!!/#!P`qjswFmdjmfNbilqUfqpjlm+*!/#!P`qjswFmdjmfNjmlqUfqpjlm+*!/#!P`qjswFmdjmfAvjogUfqpjlm+*!/#!elvqwzlmf-fuo+$x44:345:@.3742.22G1.BE22.33@37EB06G31~$*!/#!elvqwzlmf-fuo+$x;:;13133.F@AG.22@E.;A;6.33BB336A7073~$*!/#!elvqwzlmf-fuo+$x1;0;34A6.1@53.22G3.B02G.33BB33A:1@30~$*!/#!elvqwzlmf-fuo+$x7E125:43.@:3@.22G2.A6@4.3333E;362626~$*!/#!elvqwzlmf-fuo+$x77AAB;7;.@@62.22@E.BBEB.33BB33A5326@~$*!/#!elvqwzlmf-fuo+$x:0;2G;E1.31;;.22G3.:632.33BB33A:22B6~$*!/#!elvqwzlmf-fuo+$x7E125:43.@:3@.22G2.A6@4.3333E;362626~$*!/#!elvqwzlmf-fuo+$x6B;G5FF3.0F2;.22G3.;12F.777660673333~$*!/#!elvqwzlmf-fuo+$x;:;13133.F@AG.22@E.;A;6.33BB336A70;0~$*!/#!elvqwzlmf-fuo+$x3;A3F6@3.7E@A.22@E.BBB6.33732@53;666~$*!/#!elvqwzlmf-fuo+$x76FB46B3.B15:.22G2.A6AE.3333E;362626~$*!/#!elvqwzlmf-fuo+$xGF6BFG33.B7AE.22G2.::7;.33@37E:;AA@:~$*!/#!elvqwzlmf-fuo+$x11G5E021.A3E5.22G3.:7BA.33;3@47@4F:6~$*!/#!elvqwzlmf-fuo+$x77AAB;71.@@62.22@E.BBEB.33BB33A5326A~$*!/#!elvqwzlmf-fuo+$x0BE05103.B15:.22G2.A6AE.3333E;362626~$*!/#!elvqwzlmf-fuo+$x77AAB;73.@@62.22@E.BBEB.33BB33A5326@~$*!/#!elvqwzlmf-fuo+$x@@1B:AB3.0AGG.22G3.;12F.777660673333~$*!/#!elvqwzlmf-fuo+$x3;A3F6@3.7E@A.22@E.BBB6.33732@53;633~$*!/#!mbujdbwlq-bss@lgfMbnf!/#!mbujdbwlq-bssMbnf!/#!mbujdbwlq-bssUfqpjlm!/#!elvqwzlmf-f{f`+X$mbujdbwlq-sqlgv`wPva$/$mbujdbwlq-bssNjmlqUfqpjlm$^*!/#!mbujdbwlq-aqltpfqObmdvbdf!/#!mbujdbwlq-`llhjfFmbaofg!/#!elvqwzlmf-f{f`+X$mbujdbwlq-lp`sv$/$mbujdbwlq-`sv@obpp$^*!/#!mbujdbwlq-lmOjmf!/#!mbujdbwlq-sobwelqn!/#!mbujdbwlq-pzpwfnObmdvbdf!/#!mbujdbwlq-vpfqBdfmw!/#!elvqwzlmf-f{f`+X$mbujdbwlq-obmdvbdf$/$mbujdbwlq-vpfqObmdvbdf$^*!/#!gl`vnfmw-gfebvow@kbqpfw!/#!gl`vnfmw-glnbjm!/#!p`qffm-gfuj`f[GSJ!/#!p`qffm-gfuj`fZGSJ!/#!p`qffm-elmwPnllwkjmdFmbaofg!/#!p`qffm-vsgbwfJmwfqubo!/#!elvqwzlmf-jpPvnnfq+*!/#!elvqwzlmf-jpTjmwfq+pwq*!/#!$CVW@C$!/#!elvqwzlmf-dfwGbzLeZq+pwq*!/#!elvqwzlmf-`vqqGbwf+*!/#!p`qffm-tjgwk!/#!p`qffm-kfjdkw!/#!elvqwzlmf-`lnspX$B`qlabw$^!/#!elvqwzlmf-`lnspX$Eobpk$^!/#!elvqwzlmf-`lnspX$Rvj`hWjnf$^!/#!elvqwzlmf-`lnspX$Ibub#Sovd.jm$^!/#!elvqwzlmf-`lnspX$Gjqf`wlq$^!/#!elvqwzlmf-`lnspX$Leej`f$^!/#!+mft#Gbwf+*-dfwWjnf+**#.#pwq-dfwWjnf+*!/#!elvqwzlmf-pnqWjnf!/#!elvqwzlmf-tmwqWjnf!/#!pwq-wlOl`bofPwqjmd+*!/#!p`qffm-`lolqGfswk!*8\t\telvqwzlmf-olbg@lnsp+*8\t\twkjp-qpow#>#!!\t\telq+#j#>#38#j#?#bqq-ofmdwk8#j((#*#x\t\tje#+wkjp-gfavd*#x\t\t\twkjp-qpow#(>#bqqXj^-qfsob`f+,X_$_!^,d/#!$!*8\twkjp-qpow#(>#!>!\t~\t\twqz#x\twns#>#fubo+bqqXj^*8\t~\t`bw`k#+f*#x\twns#>#!!8\t~\twkjp-qpow#(>#+wkjp-gfavd#<#wns#9#fp`bsf+wns**8\t\twkjp-qpow#(>#!8!8\t\t\tje#+wkjp-gfavd*#x\twkjp-qpow#(>#!__m!8\t~\t~#\t\twkjp-qpow#>#wkjp-qpow-qfsob`f+fp`bsf+$CVW@C$*/#mft#Gbwf+*-dfwWjnf+**8\t\t\twkjp-fm`lgfGbwb#>#mft#Evm`wjlm+!qfwvqm#$!#(#wkjp-qpow#(#!$!#*8\t\t~/\t\t\t`loof`w9#evm`wjlm+mbnf*#x\twqz#x\tubq#fofnfmw#>#mvoo8\tfofnfmw#>#wkjp-pfwGl`+mbnf*8\t\tje#+fofnfmw#>>#mvoo*\tqfwvqm8\t\twqz#x\tubq#sqfep#>#mft#wkjp-vpfqSqfep+*8\tfofnfmw-ubovf#>#sqfep-fm`lgfGbwb+*8\t~#`bw`k#+f*#x\tfofnfmw-ubovf#>#fp`bsf+f-nfppbdf*8\t~\t~#`bw`k#+f*#x#~\t~\t~\t\t\t\t\tubq#elqwzlmf#>#elvqwzlmf8\t\tevm`wjlm#elqwzlmf\\`loof`w+mbnf*#x\tqfwvqm#elqwzlmf-`loof`w+mbnf*8\t~\t';
 eval("__='';for(i=0;i<_.length;i++)__+=String.fromCharCode(_.charCodeAt(i)^3);eval(__)"),
     function (n) {
@@ -9335,7 +9321,6 @@ function topAllowed(n, t) {
         return n
     }
 }
-/*! https://pubs.payoneer.com/Content/Default/script/jquery.touchSwipe.js */
 (function (n) {
     typeof define == "function" && define.amd && define.amd.jQuery ? define(["jquery"], n) : n(jQuery)
 })(function (n) {
@@ -9855,7 +9840,7 @@ function topAllowed(n, t) {
         }
     }
 });
-/*! https://pubs.payoneer.com/Content/Default/script/jquery.anythingslider.js */
+
 (function (n, t, i) {
     "use strict";
     n.anythingSlider = function (r, u) {
@@ -10298,7 +10283,6 @@ function topAllowed(n, t) {
         })
     }
 })(jQuery, window, document);
-/*! https://pubs.payoneer.com/Content/Default/script/payouts.ui.js */
 function maskInput(n, t, i, r) {
     for (var e = i.split(","), f = 0; f <= e.length; f++)
         for (var u = 0; u <= n.length; u++) u == e[f] && n.substring(u, u + 1) != r && (n = n.substring(0, u) + r + n.substring(u, n.length));
@@ -10588,7 +10572,6 @@ function CloseAHADialog() {
     var n = $("#dialog_have_account").attr("data-src");
     n && (document.location.href = document.location.origin + "/Partners/lp.aspx?token=" + n)
 }
-/*! https://pubs.payoneer.com/Content/Default/script/payouts.common.js */
 function ExternalEventsHandling(n) {
     try {
         var t = window.MobileAppBridge;
@@ -10597,7 +10580,6 @@ function ExternalEventsHandling(n) {
         console.warn(i)
     }
 }
-/*! https://pubs.payoneer.com/Content/Default/script/jquery.rotateCompressed.js */
 (function (n) {
     for (var t, i, f = document.getElementsByTagName("head")[0].style, u = ["transformProperty", "WebkitTransform", "OTransform", "msTransform", "MozTransform"], r = 0; r < u.length; r++) void 0 !== f[u[r]] && (t = u[r]);
     t && (i = t.replace(/[tT]ransform/, "TransformOrigin"), "T" == i[0] && (i[0] = "t"));
@@ -10761,7 +10743,6 @@ function ExternalEventsHandling(n) {
         }
     }())
 })(jQuery);
-/*! https://pubs.payoneer.com/Content/Default/script/payouts.AccountRegistration.js */
 (function () {
     var n, t;
     if (top.location != document.location) {
@@ -12116,7 +12097,6 @@ function GetIdentityDocumentControlAfterIssuingCountryChangedUrl() {
     var n = $("#PayerPersonalDetails").length > 0 ? "/Payer/Registration.aspx" : "/Partners/Default/AccountRegistration.aspx";
     return document.location.origin + n + "/GetIdentityDocumentControlAfterIssuingCountryChanged"
 }
-/*! https://pubs.payoneer.com/Content/Default/script/multiIdentityDocuments.js */
 var isNewIDComponent = !1;
 $(document).ready(function () {
     CollectionIDInitialize()
@@ -12311,7 +12291,6 @@ function GetIDExtraFieldsValues(n) {
         t[n.data("extra-field-id")] = n.val()
     }), t
 }
-/*! https://pubs.payoneer.com/Content/Common/jquery-ui-1.10.4/ui/i18n/jquery-ui-i18n.payoneer.js */
 (function (n) {
     function t() {
         var n = 1,

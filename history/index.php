@@ -1,5 +1,6 @@
 <?php include("../phpscripts/top.php");?>
 <?php $page = "history"; ?>
+
                 <div id="LeftContent" class="maDashboard">
                     <div id="widgetContainer" class="widgetContainer" bis_skin_checked="1">
                         <div class="myaccount" bis_skin_checked="1">
@@ -25,7 +26,7 @@
                                                                                     <div class="transactions__body" bis_skin_checked="1">
                                                                                         <div class="myaccount-page-title myaccount-page-title--legacy" bis_skin_checked="1">
                                                                                             <div class="myaccount-page-title__wrapper" bis_skin_checked="1">
-                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">History</span></div>
+                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">All Transactions</span></div>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="transaction-search-new transaction-search-new--legacy" bis_skin_checked="1"></div>

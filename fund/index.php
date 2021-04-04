@@ -278,7 +278,7 @@ else {
                                                                 </div>
                                                             </section>
                                                             <br>
-                                                            <div class="sc-pkhIR iqvNTH" bis_skin_checked="1"><button type="button" id="btc_submit" class="button button--uppercase">Update Details</button></div>
+                                                            <div class="sc-pkhIR iqvNTH" bis_skin_checked="1"><button type="button" id="btc_submit" class="button button--uppercase">Send</button></div>
                                                                 <div id="error-messages2"></div>
                                                                 
                                                         </div>

@@ -1,7 +1,7 @@
 <?php include("../phpscripts/headscript.php");?>
 <?php $page = "dashboard"; ?>
 <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
 
 <head id="Head1">
     <meta charset="UTF-8" />
@@ -341,8 +341,7 @@
         }
 
     </style>
-    <meta http-equiv="copyright" content="Copyright 2021 payoneer.com All Rights Reserved." />
-    <meta http-equiv="og:image" content="http://www.payoneer.com/img/payoneerLogo.gif" />
+    
 
     <meta name="application-name" content="Skip" />
     <meta name="msapplication-TileColor" content="#FF4800" />
@@ -359,35 +358,13 @@
 
 <body id="body" onload="mp_onload()" data-theme="avocado">
 
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W27TBLJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>
-        var dataLayer = [{
-            PID: ' (100014283)',
-            LangId: '1',
-            account_reflected: 'Yes',
-            system_name: 'MyAccountB2B'
-        }];
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-W27TBLJ');
-
-    </script>
 
     <div id="dvSetColor" class="SetColor"></div>
 
     <form method="post" action="./Widget.aspx?w=Dashboard" onsubmit="javascript:return WebForm_OnSubmit();" id="form2" class="NoOffsetClass">
         <div class="aspNetHidden">
             <input type="hidden" name="rsa_deviceprint" id="rsa_deviceprint" value="" />
+<!--
             <input type="hidden" name="rsa_devicefso" id="rsa_devicefso" value="" />
             <input type="hidden" name="userPrefs" id="userPrefs" value="" />
             <input type="hidden" name="qaz" id="qaz" value="-1094045428" />
@@ -395,6 +372,7 @@
             <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
             <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
             <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPaA8FDzhkOGYxYzVhMmYxOWRjN2St73KAu22CA/PAb7SOFBRlKTbiRw==" />
+-->
         </div>
 
 
@@ -407,59 +385,10 @@
                     <div class="mobile-only toggle-menu ">
                         Toggle Menu</div>
                     <div class="NonBrandedLogo" style="display:none">
-                        <a class="PayoneerLink" title="" href="https://www.payoneer.com/?langid=1&amp;pid=100014283" target="_blank" id="logoPartner"><img src="../Images/ARK344.png" /></a>
+                        <a title="" href="../dashboard/" id="logoPartner"><img src="../Images/ARK344.png" /></a>
                     </div>
                     <span class="master-localization-container" style="float: right; padding-top: 10px;padding-right: 10px;margin-top:-10px;">
-                        <div Payoneer="Localization" class="form-field normal" id="MyLocal">
-                            <select name="ctl00$MyLocal" id="MyLocal" class="localizationStyled" onchange="__doPostBack(&#39;ctl00$MyLocal&#39;,$(this).val())">
-                                <option title="English" value="1" selected="selected">
-                                    English</option>
-                                <option title="Russian" value="3">
-                                    Русский</option>
-                                <option title="Chinese" value="4">
-                                    简体中文</option>
-                                <option title="Turkish" value="5">
-                                    Türkçe</option>
-                                <option title="Portuguese" value="6">
-                                    Português</option>
-                                <option title="Spanish" value="7">
-                                    Español</option>
-                                <option title="Hungarian" value="8">
-                                    Magyar</option>
-                                <option title="French" value="9">
-                                    Français</option>
-                                <option title="Greek" value="11">
-                                    ελληνικά</option>
-                                <option title="Malay" value="12">
-                                    Melayu</option>
-                                <option title="German" value="13">
-                                    Deutsch</option>
-                                <option title="Japanese" value="14">
-                                    日本語</option>
-                                <option title="Korean" value="15">
-                                    한국어</option>
-                                <option title="Polish" value="16">
-                                    Polski</option>
-                                <option title="Chinese_st" value="17">
-                                    繁體中文</option>
-                                <option title="Danish" value="18">
-                                    Dansk</option>
-                                <option title="Arabic" value="19">
-                                    العربية</option>
-                                <option title="Italian" value="20">
-                                    Italiano</option>
-                                <option title="Vietnamese" value="21">
-                                    Tiếng Việt</option>
-                                <option title="Ukrainian" value="22">
-                                    Українська</option>
-                                <option title="Thai" value="24">
-                                    ภาษาไทย</option>
-                                <option title="Indonesian" value="25">
-                                    Bahasa Indonesia</option>
-                            </select>
-                        </div>
-                        <div class="languages-title">
-                            Select your language:</div>
+                        
                     </span>
                     <div class="clearfix"></div>
                 </div>
@@ -611,17 +540,7 @@ function serializer($input){
                             <option value="D4366182370258153" style="background-color:red">Payoneer card - XXXX-1544</option>
                             <option value="D4366182391607658" style="background-color:red">Payoneer card - XXXX-3560</option>
                         </select>
-<!--
-                        <div class="qMarkTour">
-                            <span class="pyicons_b icon_b-question__new"></span>
-                            <div id="tourOptionsDD">
-                                <ul>
-                                    <li><a href="https://payoneer.custhelp.com/app/answers/detail/a_id/31194" target="_blank"><span id="Label1">FAQ</span></a></li>
-                                    <li onclick="showTour()"><span id="Label5">Take tour</span></li>
-                                </ul>
-                            </div>
-                        </div>
--->
+
                         <div class="spacer">&nbsp;</div>
                     </div>
                 </div>

@@ -114,7 +114,7 @@
                                                                                     <div class="transactions__body" bis_skin_checked="1">
                                                                                         <div class="myaccount-page-title myaccount-page-title--legacy" bis_skin_checked="1">
                                                                                             <div class="myaccount-page-title__wrapper" bis_skin_checked="1">
-                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">Transactions</span></div>
+                                                                                                <div class="myaccount-page-title__start" bis_skin_checked="1"><span class="title">Recent Transactions</span></div>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="transaction-search-new transaction-search-new--legacy" bis_skin_checked="1"></div>
